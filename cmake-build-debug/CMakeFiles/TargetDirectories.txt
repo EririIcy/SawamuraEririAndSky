@@ -1,0 +1,3 @@
+D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/SawamuraEririAndSky.elf.dir
+D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/rebuild_cache.dir
