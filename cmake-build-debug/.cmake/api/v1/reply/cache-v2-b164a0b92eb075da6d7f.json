@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-addr2line.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_ASM_COMPILER_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_ASM_COMPILER_RANLIB",
@@ -47,7 +47,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_ASM_COMPILER_WORKS",
@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug"
+			"value" : "c:/Users/Chen/Desktop/gitStore/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -223,7 +223,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe"
+			"value" : "C:/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -235,7 +235,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/bin/cpack.exe"
+			"value" : "C:/CLion 2023.2.2/bin/cmake/win/x64/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -247,7 +247,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/bin/ctest.exe"
+			"value" : "C:/CLion 2023.2.2/bin/cmake/win/x64/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -263,7 +263,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -279,7 +279,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -375,7 +375,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -391,7 +391,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -487,7 +487,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/clion/CLion 2023.2.2/bin/mingw/bin/dlltool.exe"
+			"value" : "D:/MinGW/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky"
+			"value" : "C:/Users/Chen/Desktop/gitStore"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ld.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -719,7 +719,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe"
+			"value" : "C:/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -815,7 +815,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-nm.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ranlib.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -907,7 +907,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-readelf.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -919,7 +919,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26"
+			"value" : "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-strip.exe"
+			"value" : "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-strip.exe"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1155,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug"
+			"value" : "C:/Users/Chen/Desktop/gitStore/cmake-build-debug"
 		},
 		{
 			"name" : "SawamuraEririAndSky_IS_TOP_LEVEL",
@@ -1179,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky"
+			"value" : "C:/Users/Chen/Desktop/gitStore"
 		}
 	],
 	"kind" : "cache",
