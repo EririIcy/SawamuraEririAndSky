@@ -128,6 +128,30 @@ SawamuraEririAndSky.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/build
 .PHONY : SawamuraEririAndSky.elf/fast
 
+Core/Src/MPU6050.obj: Core/Src/MPU6050.c.obj
+.PHONY : Core/Src/MPU6050.obj
+
+# target to build an object file
+Core/Src/MPU6050.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+.PHONY : Core/Src/MPU6050.c.obj
+
+Core/Src/MPU6050.i: Core/Src/MPU6050.c.i
+.PHONY : Core/Src/MPU6050.i
+
+# target to preprocess a source file
+Core/Src/MPU6050.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.i
+.PHONY : Core/Src/MPU6050.c.i
+
+Core/Src/MPU6050.s: Core/Src/MPU6050.c.s
+.PHONY : Core/Src/MPU6050.s
+
+# target to generate assembly for a file
+Core/Src/MPU6050.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.s
+.PHONY : Core/Src/MPU6050.c.s
+
 Core/Src/delay.obj: Core/Src/delay.c.obj
 .PHONY : Core/Src/delay.obj
 
@@ -889,6 +913,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SawamuraEririAndSky.elf
+	@echo ... Core/Src/MPU6050.obj
+	@echo ... Core/Src/MPU6050.i
+	@echo ... Core/Src/MPU6050.s
 	@echo ... Core/Src/delay.obj
 	@echo ... Core/Src/delay.i
 	@echo ... Core/Src/delay.s

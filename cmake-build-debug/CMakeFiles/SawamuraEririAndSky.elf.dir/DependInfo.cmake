@@ -30,6 +30,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Chen/Desktop/gitStore/Core/Src/MPU6050.c" "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj" "gcc" "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj.d"
   "C:/Users/Chen/Desktop/gitStore/Core/Src/delay.c" "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj" "gcc" "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj.d"
   "C:/Users/Chen/Desktop/gitStore/Core/Src/gpio.c" "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj.d"
   "C:/Users/Chen/Desktop/gitStore/Core/Src/i2c.c" "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj" "gcc" "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj.d"

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj"
+  "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj.d"
   "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj"
   "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj.d"
   "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj"

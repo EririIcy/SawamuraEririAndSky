@@ -1,5 +1,5 @@
-CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj: \
- C:\Users\Chen\Desktop\gitStore\Core\Src\main.c \
+CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj: \
+ C:\Users\Chen\Desktop\gitStore\Core\Src\MPU6050.c \
  C:\Users\Chen\Desktop\gitStore\Core\Inc/main.h \
  C:\Users\Chen\Desktop\gitStore\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
  C:\Users\Chen\Desktop\gitStore\Core\Inc/stm32f4xx_hal_conf.h \
@@ -38,13 +38,4 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj: \
  C:\Users\Chen\Desktop\gitStore\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
  C:\Users\Chen\Desktop\gitStore\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
  C:\Users\Chen\Desktop\gitStore\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
- C:\Users\Chen\Desktop\gitStore\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
- C:\Users\Chen\Desktop\gitStore\Core\Inc/i2c.h \
- C:\Users\Chen\Desktop\gitStore\Core\Inc/main.h \
- C:\Users\Chen\Desktop\gitStore\Core\Inc/spi.h \
- C:\Users\Chen\Desktop\gitStore\Core\Inc/tim.h \
- C:\Users\Chen\Desktop\gitStore\Core\Inc/gpio.h \
- C:\Users\Chen\Desktop\gitStore\Core\Inc/MPU6050.h \
- C:\Users\Chen\Desktop\gitStore\Core\Inc/lcd_init.h \
- C:\Users\Chen\Desktop\gitStore\Core\Inc/lcd.h \
- C:\Users\Chen\Desktop\gitStore\Core\Inc/delay.h
+ C:\Users\Chen\Desktop\gitStore\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h

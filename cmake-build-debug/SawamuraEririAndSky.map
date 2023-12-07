@@ -1,7 +1,15 @@
 Archive member included to satisfy reference by file (symbol)
 
+d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldf3.o)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj (__aeabi_dmul)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
                               CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj (__aeabi_fmul)
+d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj (__aeabi_f2d)
+d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj (__aeabi_ddiv)
+d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj (__aeabi_d2f)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
                               CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj (__aeabi_i2f)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
@@ -47,6 +55,9 @@ Discarded input sections
  .ARM.exidx     0x00000000       0x10 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
  .ARM.attributes
                 0x00000000       0x1c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .text          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+ .data          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
  .text          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
  .data          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
  .bss           0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
@@ -75,6 +86,8 @@ Discarded input sections
                 0x00000000      0x124 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
  .text.LCD_ShowChinese
                 0x00000000       0x7e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+ .text.LCD_ShowIntNum
+                0x00000000       0xac CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
  .text.LCD_ShowPicture
                 0x00000000       0x56 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
  .rodata.tfont16
@@ -1136,8 +1149,20 @@ Discarded input sections
                 0x00000000        0x6 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .text.HAL_TIMEx_GetChannelNState
                 0x00000000       0x2a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text          0x00000000      0x254 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x00000000       0x30 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldf3.o)
  .data          0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
  .bss           0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .data          0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_truncdfsf2.o)
  .data          0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
  .bss           0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
  .data          0x00000000        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
@@ -1247,6 +1272,7 @@ Linker script and memory map
 LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
 LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
 LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
 LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
 LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
@@ -1297,569 +1323,591 @@ LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm
                 0x08000000                g_pfnVectors
                 0x080001ac                . = ALIGN (0x4)
 
-.text           0x080001ac     0x3ba4
-                0x080001ac                . = ALIGN (0x4)
+.text           0x080001b0     0x4614
+                0x080001b0                . = ALIGN (0x4)
  *(.text)
- .text          0x080001ac       0x40 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
- .text          0x080001ec      0x168 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
-                0x080001ec                __aeabi_fmul
-                0x080001ec                __mulsf3
- .text          0x08000354      0x21c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
-                0x08000354                __aeabi_frsub
-                0x0800035c                __subsf3
-                0x0800035c                __aeabi_fsub
-                0x08000360                __aeabi_fadd
-                0x08000360                __addsf3
-                0x080004c0                __aeabi_ui2f
-                0x080004c0                __floatunsisf
-                0x080004c8                __aeabi_i2f
-                0x080004c8                __floatsisf
-                0x080004e4                __aeabi_ul2f
-                0x080004e4                __floatundisf
-                0x080004f4                __aeabi_l2f
-                0x080004f4                __floatdisf
- .text          0x08000570       0x40 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
-                0x08000570                __fixunssfsi
-                0x08000570                __aeabi_f2uiz
- .text          0x080005b0       0x30 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
-                0x080005b0                __aeabi_uldivmod
- .text          0x080005e0      0x2d0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x080005e0                __udivmoddi4
- .text          0x080008b0        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
-                0x080008b0                __aeabi_idiv0
-                0x080008b0                __aeabi_ldiv0
+ .text          0x080001b0       0x40 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .text          0x080001f0      0x168 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
+                0x080001f0                __aeabi_fmul
+                0x080001f0                __mulsf3
+ .text          0x08000358      0x378 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                0x08000358                __aeabi_drsub
+                0x08000360                __aeabi_dsub
+                0x08000360                __subdf3
+                0x08000364                __aeabi_dadd
+                0x08000364                __adddf3
+                0x080005dc                __floatunsidf
+                0x080005dc                __aeabi_ui2d
+                0x080005fc                __floatsidf
+                0x080005fc                __aeabi_i2d
+                0x08000620                __aeabi_f2d
+                0x08000620                __extendsfdf2
+                0x08000664                __floatundidf
+                0x08000664                __aeabi_ul2d
+                0x08000674                __floatdidf
+                0x08000674                __aeabi_l2d
+ .text          0x080006d0      0x424 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                0x080006d0                __aeabi_dmul
+                0x080006d0                __muldf3
+                0x08000924                __divdf3
+                0x08000924                __aeabi_ddiv
+ .text          0x08000af4       0xa0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+                0x08000af4                __truncdfsf2
+                0x08000af4                __aeabi_d2f
+ .text          0x08000b94      0x21c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x08000b94                __aeabi_frsub
+                0x08000b9c                __subsf3
+                0x08000b9c                __aeabi_fsub
+                0x08000ba0                __aeabi_fadd
+                0x08000ba0                __addsf3
+                0x08000d00                __aeabi_ui2f
+                0x08000d00                __floatunsisf
+                0x08000d08                __aeabi_i2f
+                0x08000d08                __floatsisf
+                0x08000d24                __aeabi_ul2f
+                0x08000d24                __floatundisf
+                0x08000d34                __aeabi_l2f
+                0x08000d34                __floatdisf
+ .text          0x08000db0       0x40 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
+                0x08000db0                __fixunssfsi
+                0x08000db0                __aeabi_f2uiz
+ .text          0x08000df0       0x30 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x08000df0                __aeabi_uldivmod
+ .text          0x08000e20      0x2d0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08000e20                __udivmoddi4
+ .text          0x080010f0        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x080010f0                __aeabi_idiv0
+                0x080010f0                __aeabi_ldiv0
  *(.text*)
- .text.delay_init
-                0x080008b4       0x14 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
-                0x080008b4                delay_init
- .text.delay_us
-                0x080008c8       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
-                0x080008c8                delay_us
- .text.delay_ms
-                0x08000904       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
-                0x08000904                delay_ms
- .text.MX_GPIO_Init
-                0x0800091c       0xfc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
-                0x0800091c                MX_GPIO_Init
- .text.MX_I2C2_Init
-                0x08000a18       0x5c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
-                0x08000a18                MX_I2C2_Init
- .text.HAL_I2C_MspInit
-                0x08000a74       0x74 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
-                0x08000a74                HAL_I2C_MspInit
- .text.LCD_Fill
-                0x08000ae8       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
-                0x08000ae8                LCD_Fill
- .text.LCD_DrawPoint
-                0x08000b24       0x14 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
-                0x08000b24                LCD_DrawPoint
- .text.LCD_ShowChar
-                0x08000b38       0xec CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
-                0x08000b38                LCD_ShowChar
- .text.LCD_ShowString
-                0x08000c24       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
-                0x08000c24                LCD_ShowString
- .text.mypow    0x08000c68       0x16 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
-                0x08000c68                mypow
- *fill*         0x08000c7e        0x2 
- .text.LCD_ShowIntNum
-                0x08000c80       0xac CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
-                0x08000c80                LCD_ShowIntNum
- .text.LCD_ShowFloatNum1
-                0x08000d2c       0xb8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
-                0x08000d2c                LCD_ShowFloatNum1
- .text.LCD_Writ_Bus
-                0x08000de4       0x24 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
-                0x08000de4                LCD_Writ_Bus
- .text.LCD_WR_DATA8
-                0x08000e08        0x8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
-                0x08000e08                LCD_WR_DATA8
- .text.LCD_WR_DATA
-                0x08000e10       0x12 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
-                0x08000e10                LCD_WR_DATA
- *fill*         0x08000e22        0x2 
- .text.LCD_WR_REG
-                0x08000e24       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
-                0x08000e24                LCD_WR_REG
- .text.LCD_Address_Set
-                0x08000e4c       0x36 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
-                0x08000e4c                LCD_Address_Set
- *fill*         0x08000e82        0x2 
- .text.LCD_Init
-                0x08000e84      0x1a4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
-                0x08000e84                LCD_Init
  .text.MPU6050_Init
-                0x08001028       0x74 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
-                0x08001028                MPU6050_Init
+                0x080010f4       0x74 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+                0x080010f4                MPU6050_Init
  .text.MPU6050_ReadAccel
-                0x0800109c       0x50 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
-                0x0800109c                MPU6050_ReadAccel
+                0x08001168       0x50 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+                0x08001168                MPU6050_ReadAccel
+ .text.delay_init
+                0x080011b8       0x14 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+                0x080011b8                delay_init
+ .text.delay_us
+                0x080011cc       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+                0x080011cc                delay_us
+ .text.delay_ms
+                0x08001208       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+                0x08001208                delay_ms
+ .text.MX_GPIO_Init
+                0x08001220       0xfc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
+                0x08001220                MX_GPIO_Init
+ .text.MX_I2C2_Init
+                0x0800131c       0x5c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+                0x0800131c                MX_I2C2_Init
+ .text.HAL_I2C_MspInit
+                0x08001378       0x74 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+                0x08001378                HAL_I2C_MspInit
+ .text.LCD_Fill
+                0x080013ec       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+                0x080013ec                LCD_Fill
+ .text.LCD_DrawPoint
+                0x08001428       0x14 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+                0x08001428                LCD_DrawPoint
+ .text.LCD_ShowChar
+                0x0800143c       0xec CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+                0x0800143c                LCD_ShowChar
+ .text.LCD_ShowString
+                0x08001528       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+                0x08001528                LCD_ShowString
+ .text.mypow    0x0800156c       0x16 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+                0x0800156c                mypow
+ *fill*         0x08001582        0x2 
+ .text.LCD_ShowFloatNum1
+                0x08001584       0xb8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+                0x08001584                LCD_ShowFloatNum1
+ .text.LCD_Writ_Bus
+                0x0800163c       0x24 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+                0x0800163c                LCD_Writ_Bus
+ .text.LCD_WR_DATA8
+                0x08001660        0x8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+                0x08001660                LCD_WR_DATA8
+ .text.LCD_WR_DATA
+                0x08001668       0x12 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+                0x08001668                LCD_WR_DATA
+ *fill*         0x0800167a        0x2 
+ .text.LCD_WR_REG
+                0x0800167c       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+                0x0800167c                LCD_WR_REG
+ .text.LCD_Address_Set
+                0x080016a4       0x36 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+                0x080016a4                LCD_Address_Set
+ *fill*         0x080016da        0x2 
+ .text.LCD_Init
+                0x080016dc      0x1a4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+                0x080016dc                LCD_Init
  .text.HAL_GPIO_EXTI_Callback
-                0x080010ec       0x34 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
-                0x080010ec                HAL_GPIO_EXTI_Callback
+                0x08001880       0x34 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+                0x08001880                HAL_GPIO_EXTI_Callback
  .text.HAL_TIM_PeriodElapsedCallback
-                0x08001120       0x7c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
-                0x08001120                HAL_TIM_PeriodElapsedCallback
+                0x080018b4       0x7c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+                0x080018b4                HAL_TIM_PeriodElapsedCallback
  .text.Error_Handler
-                0x0800119c        0x4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
-                0x0800119c                Error_Handler
+                0x08001930        0x4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+                0x08001930                Error_Handler
  .text.SystemClock_Config
-                0x080011a0       0xb0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
-                0x080011a0                SystemClock_Config
- .text.main     0x08001250      0x120 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
-                0x08001250                main
+                0x08001934       0xb0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+                0x08001934                SystemClock_Config
+ *fill*         0x080019e4        0x4 
+ .text.main     0x080019e8      0x3fc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+                0x080019e8                main
  .text.MX_SPI5_Init
-                0x08001370       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
-                0x08001370                MX_SPI5_Init
+                0x08001de4       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
+                0x08001de4                MX_SPI5_Init
  .text.HAL_SPI_MspInit
-                0x080013b4       0xa0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
-                0x080013b4                HAL_SPI_MspInit
+                0x08001e28       0xa0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
+                0x08001e28                HAL_SPI_MspInit
  .text.HAL_MspInit
-                0x08001454       0x38 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x08001454                HAL_MspInit
+                0x08001ec8       0x38 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x08001ec8                HAL_MspInit
  .text.NMI_Handler
-                0x0800148c        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800148c                NMI_Handler
+                0x08001f00        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f00                NMI_Handler
  .text.HardFault_Handler
-                0x0800148e        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800148e                HardFault_Handler
+                0x08001f02        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f02                HardFault_Handler
  .text.MemManage_Handler
-                0x08001490        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001490                MemManage_Handler
+                0x08001f04        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f04                MemManage_Handler
  .text.BusFault_Handler
-                0x08001492        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001492                BusFault_Handler
+                0x08001f06        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f06                BusFault_Handler
  .text.UsageFault_Handler
-                0x08001494        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001494                UsageFault_Handler
+                0x08001f08        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f08                UsageFault_Handler
  .text.SVC_Handler
-                0x08001496        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001496                SVC_Handler
+                0x08001f0a        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f0a                SVC_Handler
  .text.DebugMon_Handler
-                0x08001498        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001498                DebugMon_Handler
+                0x08001f0c        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f0c                DebugMon_Handler
  .text.PendSV_Handler
-                0x0800149a        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800149a                PendSV_Handler
+                0x08001f0e        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f0e                PendSV_Handler
  .text.SysTick_Handler
-                0x0800149c        0x8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800149c                SysTick_Handler
+                0x08001f10        0x8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f10                SysTick_Handler
  .text.EXTI9_5_IRQHandler
-                0x080014a4       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080014a4                EXTI9_5_IRQHandler
+                0x08001f18       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f18                EXTI9_5_IRQHandler
  .text.TIM2_IRQHandler
-                0x080014b4       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080014b4                TIM2_IRQHandler
+                0x08001f28       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f28                TIM2_IRQHandler
  .text.TIM3_IRQHandler
-                0x080014c4       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080014c4                TIM3_IRQHandler
+                0x08001f38       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001f38                TIM3_IRQHandler
  .text.SystemInit
-                0x080014d4        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x080014d4                SystemInit
- *fill*         0x080014d6        0x2 
+                0x08001f48        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08001f48                SystemInit
+ *fill*         0x08001f4a        0x2 
  .text.MX_TIM2_Init
-                0x080014d8       0x70 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
-                0x080014d8                MX_TIM2_Init
+                0x08001f4c       0x70 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+                0x08001f4c                MX_TIM2_Init
  .text.MX_TIM3_Init
-                0x08001548       0x70 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
-                0x08001548                MX_TIM3_Init
+                0x08001fbc       0x70 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+                0x08001fbc                MX_TIM3_Init
  .text.HAL_TIM_Base_MspInit
-                0x080015b8       0x98 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
-                0x080015b8                HAL_TIM_Base_MspInit
+                0x0800202c       0x98 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+                0x0800202c                HAL_TIM_Base_MspInit
  .text.HAL_TIM_MspPostInit
-                0x08001650       0x58 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
-                0x08001650                HAL_TIM_MspPostInit
+                0x080020c4       0x58 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+                0x080020c4                HAL_TIM_MspPostInit
  .text.MX_TIM4_Init
-                0x080016a8       0xc4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
-                0x080016a8                MX_TIM4_Init
+                0x0800211c       0xc4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+                0x0800211c                MX_TIM4_Init
  .text.Reset_Handler
-                0x0800176c       0x50 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
-                0x0800176c                Reset_Handler
+                0x080021e0       0x50 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
+                0x080021e0                Reset_Handler
  .text.Default_Handler
-                0x080017bc        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
-                0x080017bc                RTC_Alarm_IRQHandler
-                0x080017bc                HASH_RNG_IRQHandler
-                0x080017bc                EXTI2_IRQHandler
-                0x080017bc                TIM8_CC_IRQHandler
-                0x080017bc                UART8_IRQHandler
-                0x080017bc                SPI4_IRQHandler
-                0x080017bc                TIM1_CC_IRQHandler
-                0x080017bc                DMA2_Stream5_IRQHandler
-                0x080017bc                DMA1_Stream5_IRQHandler
-                0x080017bc                PVD_IRQHandler
-                0x080017bc                SDIO_IRQHandler
-                0x080017bc                TAMP_STAMP_IRQHandler
-                0x080017bc                CAN2_RX1_IRQHandler
-                0x080017bc                EXTI3_IRQHandler
-                0x080017bc                TIM8_TRG_COM_TIM14_IRQHandler
-                0x080017bc                TIM1_UP_TIM10_IRQHandler
-                0x080017bc                TIM8_UP_TIM13_IRQHandler
-                0x080017bc                I2C3_ER_IRQHandler
-                0x080017bc                EXTI0_IRQHandler
-                0x080017bc                I2C2_EV_IRQHandler
-                0x080017bc                DMA1_Stream2_IRQHandler
-                0x080017bc                CAN1_RX0_IRQHandler
-                0x080017bc                FPU_IRQHandler
-                0x080017bc                OTG_HS_WKUP_IRQHandler
-                0x080017bc                LTDC_ER_IRQHandler
-                0x080017bc                CAN2_SCE_IRQHandler
-                0x080017bc                DMA2_Stream2_IRQHandler
-                0x080017bc                SPI1_IRQHandler
-                0x080017bc                TIM6_DAC_IRQHandler
-                0x080017bc                TIM1_BRK_TIM9_IRQHandler
-                0x080017bc                DCMI_IRQHandler
-                0x080017bc                CAN2_RX0_IRQHandler
-                0x080017bc                DMA2_Stream3_IRQHandler
-                0x080017bc                USART6_IRQHandler
-                0x080017bc                USART3_IRQHandler
-                0x080017bc                CAN1_RX1_IRQHandler
-                0x080017bc                UART5_IRQHandler
-                0x080017bc                DMA2_Stream0_IRQHandler
-                0x080017bc                TIM4_IRQHandler
-                0x080017bc                I2C1_EV_IRQHandler
-                0x080017bc                DMA1_Stream6_IRQHandler
-                0x080017bc                DMA1_Stream1_IRQHandler
-                0x080017bc                UART4_IRQHandler
-                0x080017bc                RCC_IRQHandler
-                0x080017bc                TIM8_BRK_TIM12_IRQHandler
-                0x080017bc                Default_Handler
-                0x080017bc                EXTI15_10_IRQHandler
-                0x080017bc                ADC_IRQHandler
-                0x080017bc                DMA1_Stream7_IRQHandler
-                0x080017bc                SPI5_IRQHandler
-                0x080017bc                TIM7_IRQHandler
-                0x080017bc                CAN2_TX_IRQHandler
-                0x080017bc                TIM5_IRQHandler
-                0x080017bc                DMA2_Stream7_IRQHandler
-                0x080017bc                I2C3_EV_IRQHandler
-                0x080017bc                RTC_WKUP_IRQHandler
-                0x080017bc                LTDC_IRQHandler
-                0x080017bc                ETH_WKUP_IRQHandler
-                0x080017bc                SPI2_IRQHandler
-                0x080017bc                OTG_HS_EP1_IN_IRQHandler
-                0x080017bc                DMA1_Stream0_IRQHandler
-                0x080017bc                CAN1_TX_IRQHandler
-                0x080017bc                EXTI4_IRQHandler
-                0x080017bc                ETH_IRQHandler
-                0x080017bc                OTG_HS_EP1_OUT_IRQHandler
-                0x080017bc                WWDG_IRQHandler
-                0x080017bc                SPI6_IRQHandler
-                0x080017bc                OTG_FS_WKUP_IRQHandler
-                0x080017bc                TIM1_TRG_COM_TIM11_IRQHandler
-                0x080017bc                OTG_HS_IRQHandler
-                0x080017bc                DMA2D_IRQHandler
-                0x080017bc                EXTI1_IRQHandler
-                0x080017bc                UART7_IRQHandler
-                0x080017bc                USART2_IRQHandler
-                0x080017bc                I2C2_ER_IRQHandler
-                0x080017bc                DMA2_Stream1_IRQHandler
-                0x080017bc                CAN1_SCE_IRQHandler
-                0x080017bc                FLASH_IRQHandler
-                0x080017bc                DMA2_Stream4_IRQHandler
-                0x080017bc                USART1_IRQHandler
-                0x080017bc                OTG_FS_IRQHandler
-                0x080017bc                SPI3_IRQHandler
-                0x080017bc                DMA1_Stream4_IRQHandler
-                0x080017bc                I2C1_ER_IRQHandler
-                0x080017bc                FMC_IRQHandler
-                0x080017bc                DMA2_Stream6_IRQHandler
-                0x080017bc                SAI1_IRQHandler
-                0x080017bc                DMA1_Stream3_IRQHandler
- *fill*         0x080017be        0x2 
+                0x08002230        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
+                0x08002230                RTC_Alarm_IRQHandler
+                0x08002230                HASH_RNG_IRQHandler
+                0x08002230                EXTI2_IRQHandler
+                0x08002230                TIM8_CC_IRQHandler
+                0x08002230                UART8_IRQHandler
+                0x08002230                SPI4_IRQHandler
+                0x08002230                TIM1_CC_IRQHandler
+                0x08002230                DMA2_Stream5_IRQHandler
+                0x08002230                DMA1_Stream5_IRQHandler
+                0x08002230                PVD_IRQHandler
+                0x08002230                SDIO_IRQHandler
+                0x08002230                TAMP_STAMP_IRQHandler
+                0x08002230                CAN2_RX1_IRQHandler
+                0x08002230                EXTI3_IRQHandler
+                0x08002230                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08002230                TIM1_UP_TIM10_IRQHandler
+                0x08002230                TIM8_UP_TIM13_IRQHandler
+                0x08002230                I2C3_ER_IRQHandler
+                0x08002230                EXTI0_IRQHandler
+                0x08002230                I2C2_EV_IRQHandler
+                0x08002230                DMA1_Stream2_IRQHandler
+                0x08002230                CAN1_RX0_IRQHandler
+                0x08002230                FPU_IRQHandler
+                0x08002230                OTG_HS_WKUP_IRQHandler
+                0x08002230                LTDC_ER_IRQHandler
+                0x08002230                CAN2_SCE_IRQHandler
+                0x08002230                DMA2_Stream2_IRQHandler
+                0x08002230                SPI1_IRQHandler
+                0x08002230                TIM6_DAC_IRQHandler
+                0x08002230                TIM1_BRK_TIM9_IRQHandler
+                0x08002230                DCMI_IRQHandler
+                0x08002230                CAN2_RX0_IRQHandler
+                0x08002230                DMA2_Stream3_IRQHandler
+                0x08002230                USART6_IRQHandler
+                0x08002230                USART3_IRQHandler
+                0x08002230                CAN1_RX1_IRQHandler
+                0x08002230                UART5_IRQHandler
+                0x08002230                DMA2_Stream0_IRQHandler
+                0x08002230                TIM4_IRQHandler
+                0x08002230                I2C1_EV_IRQHandler
+                0x08002230                DMA1_Stream6_IRQHandler
+                0x08002230                DMA1_Stream1_IRQHandler
+                0x08002230                UART4_IRQHandler
+                0x08002230                RCC_IRQHandler
+                0x08002230                TIM8_BRK_TIM12_IRQHandler
+                0x08002230                Default_Handler
+                0x08002230                EXTI15_10_IRQHandler
+                0x08002230                ADC_IRQHandler
+                0x08002230                DMA1_Stream7_IRQHandler
+                0x08002230                SPI5_IRQHandler
+                0x08002230                TIM7_IRQHandler
+                0x08002230                CAN2_TX_IRQHandler
+                0x08002230                TIM5_IRQHandler
+                0x08002230                DMA2_Stream7_IRQHandler
+                0x08002230                I2C3_EV_IRQHandler
+                0x08002230                RTC_WKUP_IRQHandler
+                0x08002230                LTDC_IRQHandler
+                0x08002230                ETH_WKUP_IRQHandler
+                0x08002230                SPI2_IRQHandler
+                0x08002230                OTG_HS_EP1_IN_IRQHandler
+                0x08002230                DMA1_Stream0_IRQHandler
+                0x08002230                CAN1_TX_IRQHandler
+                0x08002230                EXTI4_IRQHandler
+                0x08002230                ETH_IRQHandler
+                0x08002230                OTG_HS_EP1_OUT_IRQHandler
+                0x08002230                WWDG_IRQHandler
+                0x08002230                SPI6_IRQHandler
+                0x08002230                OTG_FS_WKUP_IRQHandler
+                0x08002230                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08002230                OTG_HS_IRQHandler
+                0x08002230                DMA2D_IRQHandler
+                0x08002230                EXTI1_IRQHandler
+                0x08002230                UART7_IRQHandler
+                0x08002230                USART2_IRQHandler
+                0x08002230                I2C2_ER_IRQHandler
+                0x08002230                DMA2_Stream1_IRQHandler
+                0x08002230                CAN1_SCE_IRQHandler
+                0x08002230                FLASH_IRQHandler
+                0x08002230                DMA2_Stream4_IRQHandler
+                0x08002230                USART1_IRQHandler
+                0x08002230                OTG_FS_IRQHandler
+                0x08002230                SPI3_IRQHandler
+                0x08002230                DMA1_Stream4_IRQHandler
+                0x08002230                I2C1_ER_IRQHandler
+                0x08002230                FMC_IRQHandler
+                0x08002230                DMA2_Stream6_IRQHandler
+                0x08002230                SAI1_IRQHandler
+                0x08002230                DMA1_Stream3_IRQHandler
+ *fill*         0x08002232        0x2 
  .text.HAL_InitTick
-                0x080017c0       0x4c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x080017c0                HAL_InitTick
+                0x08002234       0x4c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08002234                HAL_InitTick
  .text.HAL_Init
-                0x0800180c       0x34 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0800180c                HAL_Init
+                0x08002280       0x34 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08002280                HAL_Init
  .text.HAL_IncTick
-                0x08001840       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001840                HAL_IncTick
+                0x080022b4       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080022b4                HAL_IncTick
  .text.HAL_GetTick
-                0x08001858        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001858                HAL_GetTick
+                0x080022cc        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080022cc                HAL_GetTick
  .text.HAL_Delay
-                0x08001864       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001864                HAL_Delay
+                0x080022d8       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080022d8                HAL_Delay
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0800188c       0x24 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800188c                HAL_NVIC_SetPriorityGrouping
+                0x08002300       0x24 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08002300                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x080018b0       0x70 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x080018b0                HAL_NVIC_SetPriority
+                0x08002324       0x70 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08002324                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08001920       0x1c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08001920                HAL_NVIC_EnableIRQ
+                0x08002394       0x1c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08002394                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0800193c       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800193c                HAL_SYSTICK_Config
+                0x080023b0       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x080023b0                HAL_SYSTICK_Config
  .text.HAL_SYSTICK_CLKSourceConfig
-                0x08001964       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08001964                HAL_SYSTICK_CLKSourceConfig
+                0x080023d8       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x080023d8                HAL_SYSTICK_CLKSourceConfig
  .text.HAL_GPIO_Init
-                0x08001984      0x1fc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08001984                HAL_GPIO_Init
+                0x080023f8      0x1fc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x080023f8                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08001b80        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08001b80                HAL_GPIO_WritePin
+                0x080025f4        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x080025f4                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x08001b8c       0x12 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08001b8c                HAL_GPIO_TogglePin
- *fill*         0x08001b9e        0x2 
+                0x08002600       0x12 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08002600                HAL_GPIO_TogglePin
+ *fill*         0x08002612        0x2 
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x08001ba0       0x1c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08001ba0                HAL_GPIO_EXTI_IRQHandler
+                0x08002614       0x1c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08002614                HAL_GPIO_EXTI_IRQHandler
  .text.I2C_IsAcknowledgeFailed
-                0x08001bbc       0x32 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002630       0x32 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_WaitOnFlagUntilTimeout
-                0x08001bee       0xaa CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002662       0xaa CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_WaitOnMasterAddressFlagUntilTimeout
-                0x08001c98       0xd6 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x0800270c       0xd6 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_WaitOnTXEFlagUntilTimeout
-                0x08001d6e       0x5e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x080027e2       0x5e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_RequestMemoryWrite
-                0x08001dcc       0xd8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002840       0xd8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_RequestMemoryRead
-                0x08001ea4      0x154 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002918      0x154 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_WaitOnBTFFlagUntilTimeout
-                0x08001ff8       0x5e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002a6c       0x5e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .text.I2C_WaitOnRXNEFlagUntilTimeout
-                0x08002056       0x78 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- *fill*         0x080020ce        0x2 
+                0x08002aca       0x78 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ *fill*         0x08002b42        0x2 
  .text.HAL_I2C_Init
-                0x080020d0      0x1bc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
-                0x080020d0                HAL_I2C_Init
+                0x08002b44      0x1bc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002b44                HAL_I2C_Init
  .text.HAL_I2C_Mem_Write
-                0x0800228c      0x164 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
-                0x0800228c                HAL_I2C_Mem_Write
+                0x08002d00      0x164 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002d00                HAL_I2C_Mem_Write
  .text.HAL_I2C_Mem_Read
-                0x080023f0      0x2f8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
-                0x080023f0                HAL_I2C_Mem_Read
+                0x08002e64      0x2f8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x08002e64                HAL_I2C_Mem_Read
  .text.HAL_I2CEx_ConfigAnalogFilter
-                0x080026e8       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
-                0x080026e8                HAL_I2CEx_ConfigAnalogFilter
+                0x0800315c       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+                0x0800315c                HAL_I2CEx_ConfigAnalogFilter
  .text.HAL_I2CEx_ConfigDigitalFilter
-                0x0800272c       0x42 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
-                0x0800272c                HAL_I2CEx_ConfigDigitalFilter
- *fill*         0x0800276e        0x2 
+                0x080031a0       0x42 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+                0x080031a0                HAL_I2CEx_ConfigDigitalFilter
+ *fill*         0x080031e2        0x2 
  .text.HAL_PWREx_EnableOverDrive
-                0x08002770       0x7c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
-                0x08002770                HAL_PWREx_EnableOverDrive
+                0x080031e4       0x7c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+                0x080031e4                HAL_PWREx_EnableOverDrive
  .text.HAL_RCC_OscConfig
-                0x080027ec      0x3f8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x080027ec                HAL_RCC_OscConfig
+                0x08003260      0x3f8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08003260                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08002be4       0xa4 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002be4                HAL_RCC_GetSysClockFreq
+                0x08003658       0xa4 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08003658                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08002c88      0x160 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002c88                HAL_RCC_ClockConfig
+                0x080036fc      0x160 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x080036fc                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08002de8        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002de8                HAL_RCC_GetHCLKFreq
+                0x0800385c        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0800385c                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08002df4       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002df4                HAL_RCC_GetPCLK1Freq
+                0x08003868       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08003868                HAL_RCC_GetPCLK1Freq
  .text.SPI_WaitFlagStateUntilTimeout
-                0x08002e14       0xd4 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x08003888       0xd4 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
  .text.SPI_EndRxTxTransaction
-                0x08002ee8       0x80 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x0800395c       0x80 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
  .text.HAL_SPI_Init
-                0x08002f68       0xbe CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
-                0x08002f68                HAL_SPI_Init
+                0x080039dc       0xbe CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x080039dc                HAL_SPI_Init
  .text.HAL_SPI_Transmit
-                0x08003026      0x1b8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
-                0x08003026                HAL_SPI_Transmit
- *fill*         0x080031de        0x2 
+                0x08003a9a      0x1b8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x08003a9a                HAL_SPI_Transmit
+ *fill*         0x08003c52        0x2 
  .text.TIM_OC1_SetConfig
-                0x080031e0       0x68 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003c54       0x68 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_OC3_SetConfig
-                0x08003248       0x70 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003cbc       0x70 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_OC4_SetConfig
-                0x080032b8       0x50 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003d2c       0x50 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_TI1_ConfigInputStage
-                0x08003308       0x24 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003d7c       0x24 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_TI2_ConfigInputStage
-                0x0800332c       0x26 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003da0       0x26 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_ITRx_SetConfig
-                0x08003352       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- *fill*         0x08003362        0x2 
+                0x08003dc6       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ *fill*         0x08003dd6        0x2 
  .text.HAL_TIM_Base_Start
-                0x08003364       0x7c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003364                HAL_TIM_Base_Start
+                0x08003dd8       0x7c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003dd8                HAL_TIM_Base_Start
  .text.HAL_TIM_Base_Start_IT
-                0x080033e0       0x88 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080033e0                HAL_TIM_Base_Start_IT
+                0x08003e54       0x88 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003e54                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_PWM_MspInit
-                0x08003468        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003468                HAL_TIM_PWM_MspInit
+                0x08003edc        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003edc                HAL_TIM_PWM_MspInit
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x0800346a        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800346a                HAL_TIM_OC_DelayElapsedCallback
+                0x08003ede        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003ede                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x0800346c        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800346c                HAL_TIM_IC_CaptureCallback
+                0x08003ee0        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003ee0                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x0800346e        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0800346e                HAL_TIM_PWM_PulseFinishedCallback
+                0x08003ee2        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003ee2                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x08003470        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003470                HAL_TIM_TriggerCallback
+                0x08003ee4        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003ee4                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x08003472      0x15e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003472                HAL_TIM_IRQHandler
+                0x08003ee6      0x15e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003ee6                HAL_TIM_IRQHandler
  .text.TIM_Base_SetConfig
-                0x080035d0       0xd8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080035d0                TIM_Base_SetConfig
+                0x08004044       0xd8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08004044                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x080036a8       0x58 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080036a8                HAL_TIM_Base_Init
+                0x0800411c       0x58 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800411c                HAL_TIM_Base_Init
  .text.HAL_TIM_PWM_Init
-                0x08003700       0x58 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003700                HAL_TIM_PWM_Init
+                0x08004174       0x58 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08004174                HAL_TIM_PWM_Init
  .text.TIM_OC2_SetConfig
-                0x08003758       0x70 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003758                TIM_OC2_SetConfig
+                0x080041cc       0x70 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080041cc                TIM_OC2_SetConfig
  .text.HAL_TIM_PWM_ConfigChannel
-                0x080037c8       0xdc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080037c8                HAL_TIM_PWM_ConfigChannel
+                0x0800423c       0xdc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800423c                HAL_TIM_PWM_ConfigChannel
  .text.TIM_ETR_SetConfig
-                0x080038a4       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080038a4                TIM_ETR_SetConfig
+                0x08004318       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08004318                TIM_ETR_SetConfig
  .text.HAL_TIM_ConfigClockSource
-                0x080038bc       0xfe CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080038bc                HAL_TIM_ConfigClockSource
+                0x08004330       0xfe CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08004330                HAL_TIM_ConfigClockSource
  .text.TIM_CCxChannelCmd
-                0x080039ba       0x1e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080039ba                TIM_CCxChannelCmd
+                0x0800442e       0x1e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800442e                TIM_CCxChannelCmd
  .text.HAL_TIM_PWM_Start
-                0x080039d8      0x104 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080039d8                HAL_TIM_PWM_Start
+                0x0800444c      0x104 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800444c                HAL_TIM_PWM_Start
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x08003adc       0x8c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x08003adc                HAL_TIMEx_MasterConfigSynchronization
+                0x08004550       0x8c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x08004550                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_CommutCallback
-                0x08003b68        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x08003b68                HAL_TIMEx_CommutCallback
+                0x080045dc        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x080045dc                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x08003b6a        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x08003b6a                HAL_TIMEx_BreakCallback
+                0x080045de        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x080045de                HAL_TIMEx_BreakCallback
  .text.__libc_init_array
-                0x08003b6c       0x48 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
-                0x08003b6c                __libc_init_array
- .text.memset   0x08003bb4       0xa4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
-                0x08003bb4                memset
+                0x080045e0       0x48 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x080045e0                __libc_init_array
+ .text.memset   0x08004628       0xa4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x08004628                memset
  .text.startup.register_fini
-                0x08003c58       0x14 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08003c6c        0xc d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
-                0x08003c6c                atexit
+                0x080046cc       0x14 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080046e0        0xc d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x080046e0                atexit
  .text.__libc_fini_array
-                0x08003c78       0x2c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
-                0x08003c78                __libc_fini_array
+                0x080046ec       0x2c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x080046ec                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08003ca4        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08003ca4                __retarget_lock_acquire_recursive
+                0x08004718        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08004718                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08003ca8        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08003ca8                __retarget_lock_release_recursive
+                0x0800471c        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x0800471c                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08003cac       0x8c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
-                0x08003cac                __register_exitproc
+                0x08004720       0x8c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x08004720                __register_exitproc
  *(.glue_7)
- .glue_7        0x08003d38        0x0 linker stubs
+ .glue_7        0x080047ac        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08003d38        0x0 linker stubs
+ .glue_7t       0x080047ac        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08003d38        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x080047ac        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x08003d38        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08003d38                _init
- .init          0x08003d3c        0x8 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x080047ac        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x080047ac                _init
+ .init          0x080047b0        0x8 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x08003d44        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08003d44                _fini
- .fini          0x08003d48        0x8 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
-                0x08003d50                . = ALIGN (0x4)
-                0x08003d50                _etext = .
+ .fini          0x080047b8        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x080047b8                _fini
+ .fini          0x080047bc        0x8 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x080047c4                . = ALIGN (0x4)
+                0x080047c4                _etext = .
 
-.vfp11_veneer   0x08003d50        0x0
- .vfp11_veneer  0x08003d50        0x0 linker stubs
+.vfp11_veneer   0x080047c4        0x0
+ .vfp11_veneer  0x080047c4        0x0 linker stubs
 
-.v4_bx          0x08003d50        0x0
- .v4_bx         0x08003d50        0x0 linker stubs
+.v4_bx          0x080047c4        0x0
+ .v4_bx         0x080047c4        0x0 linker stubs
 
-.iplt           0x08003d50        0x0
- .iplt          0x08003d50        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x080047c4        0x0
+ .iplt          0x080047c4        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08003d50     0x1dd8
-                0x08003d50                . = ALIGN (0x4)
+.rodata         0x080047c4     0x1dec
+                0x080047c4                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.ascii_1608
-                0x08003d50      0x5f0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
-                0x08003d50                ascii_1608
+                0x080047c4      0x5f0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+                0x080047c4                ascii_1608
  .rodata.ascii_3216
-                0x08004340     0x17c0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
-                0x08004340                ascii_3216
+                0x08004db4     0x17c0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+                0x08004db4                ascii_3216
  .rodata.main.str1.4
-                0x08005b00        0xa CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
- *fill*         0x08005b0a        0x2 
+                0x08006574       0x1e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+ *fill*         0x08006592        0x2 
  .rodata.AHBPrescTable
-                0x08005b0c       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08005b0c                AHBPrescTable
+                0x08006594       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08006594                AHBPrescTable
  .rodata.APBPrescTable
-                0x08005b1c        0x8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08005b1c                APBPrescTable
+                0x080065a4        0x8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x080065a4                APBPrescTable
  .rodata._global_impure_ptr
-                0x08005b24        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
-                0x08005b24                _global_impure_ptr
-                0x08005b28                . = ALIGN (0x4)
+                0x080065ac        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x080065ac                _global_impure_ptr
+                0x080065b0                . = ALIGN (0x4)
 
-.ARM.extab      0x08005b28        0x0
-                0x08005b28                . = ALIGN (0x4)
+.ARM.extab      0x080065b0        0x0
+                0x080065b0                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08005b28                . = ALIGN (0x4)
+                0x080065b0                . = ALIGN (0x4)
 
-.ARM            0x08005b28        0x8
-                0x08005b28                . = ALIGN (0x4)
-                0x08005b28                __exidx_start = .
+.ARM            0x080065b0        0x8
+                0x080065b0                . = ALIGN (0x4)
+                0x080065b0                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08005b28        0x8 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x08005b30                __exidx_end = .
-                0x08005b30                . = ALIGN (0x4)
+ .ARM.exidx     0x080065b0        0x8 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x080065b8                __exidx_end = .
+                0x080065b8                . = ALIGN (0x4)
 
-.rel.dyn        0x08005b30        0x0
- .rel.iplt      0x08005b30        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x080065b8        0x0
+ .rel.iplt      0x080065b8        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.preinit_array  0x08005b30        0x0
-                0x08005b30                . = ALIGN (0x4)
-                0x08005b30                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080065b8        0x0
+                0x080065b8                . = ALIGN (0x4)
+                0x080065b8                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08005b30                PROVIDE (__preinit_array_end = .)
-                0x08005b30                . = ALIGN (0x4)
+                0x080065b8                PROVIDE (__preinit_array_end = .)
+                0x080065b8                . = ALIGN (0x4)
 
-.init_array     0x08005b30        0x8
-                0x08005b30                . = ALIGN (0x4)
-                0x08005b30                PROVIDE (__init_array_start = .)
+.init_array     0x080065b8        0x8
+                0x080065b8                . = ALIGN (0x4)
+                0x080065b8                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08005b30        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x080065b8        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08005b34        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08005b38                PROVIDE (__init_array_end = .)
-                0x08005b38                . = ALIGN (0x4)
+ .init_array    0x080065bc        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x080065c0                PROVIDE (__init_array_end = .)
+                0x080065c0                . = ALIGN (0x4)
 
-.fini_array     0x08005b38        0x4
-                0x08005b38                . = ALIGN (0x4)
-                0x08005b38                PROVIDE (__fini_array_start = .)
+.fini_array     0x080065c0        0x4
+                0x080065c0                . = ALIGN (0x4)
+                0x080065c0                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08005b38        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08005b3c                PROVIDE (__fini_array_end = .)
-                0x08005b3c                . = ALIGN (0x4)
-                0x08005b3c                _sidata = LOADADDR (.data)
+ .fini_array    0x080065c0        0x4 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x080065c4                PROVIDE (__fini_array_end = .)
+                0x080065c4                . = ALIGN (0x4)
+                0x080065c4                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x444 load address 0x08005b3c
+.data           0x20000000      0x444 load address 0x080065c4
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1889,12 +1937,12 @@ LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm
  *(.RamFunc*)
                 0x20000444                . = ALIGN (0x4)
                 0x20000444                _edata = .
-                0x08005f80                _siccmram = LOADADDR (.ccmram)
+                0x08006a08                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x20000444        0x0 load address 0x08005f80
+.igot.plt       0x20000444        0x0 load address 0x08006a08
  .igot.plt      0x20000444        0x0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x08005f80
+.ccmram         0x10000000        0x0 load address 0x08006a08
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _sccmram = .
  *(.ccmram)
@@ -1969,139 +2017,150 @@ LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm
  .ARM.attributes
                 0x0000001e       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
  .ARM.attributes
-                0x0000004c       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+                0x0000004c       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
  .ARM.attributes
-                0x0000007a       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
+                0x0000007a       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
  .ARM.attributes
-                0x000000a8       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+                0x000000a8       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
  .ARM.attributes
-                0x000000d6       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+                0x000000d6       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
  .ARM.attributes
-                0x00000104       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+                0x00000104       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
  .ARM.attributes
-                0x00000132       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+                0x00000132       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
  .ARM.attributes
-                0x00000160       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
+                0x00000160       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
  .ARM.attributes
-                0x0000018e       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x0000018e       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
  .ARM.attributes
-                0x000001bc       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x000001bc       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .ARM.attributes
-                0x000001ea       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x000001ea       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .ARM.attributes
-                0x00000218       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+                0x00000218       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .ARM.attributes
-                0x00000246       0x21 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
+                0x00000246       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
  .ARM.attributes
-                0x00000267       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x00000274       0x21 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
  .ARM.attributes
-                0x00000295       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000295       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .ARM.attributes
-                0x000002c3       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x000002c3       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .ARM.attributes
-                0x000002f1       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x000002f1       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .ARM.attributes
-                0x0000031f       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+                0x0000031f       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .ARM.attributes
-                0x0000034d       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+                0x0000034d       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
  .ARM.attributes
-                0x0000037b       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000037b       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .ARM.attributes
-                0x000003a9       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x000003a9       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .ARM.attributes
-                0x000003d7       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x000003d7       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
  .ARM.attributes
-                0x00000405       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x00000405       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .ARM.attributes
-                0x00000433       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
+                0x00000433       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .ARM.attributes
-                0x00000451       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x00000461       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
  .ARM.attributes
-                0x0000046f       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
+                0x0000047f       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x0000048d       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x0000049d       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x000004ab       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x000004bb       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x000004d9       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x000004d9       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x000004f7       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x000004f7       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
  .ARM.attributes
-                0x00000525       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x00000515       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000553       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x00000533       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x00000581       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x00000561       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000005af       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x0000057f       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x000005dd       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x000005ad       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
  .ARM.attributes
-                0x0000060b       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x000005db       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000639       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x00000609       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x00000667       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x00000637       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000665       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000693       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x000006c1       0x2e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000006ef       0x1e d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
 OUTPUT(SawamuraEririAndSky.elf elf32-littlearm)
 LOAD linker stubs
 LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
 LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
 LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x165de
- .debug_info    0x00000000      0x24b CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
- .debug_info    0x0000024b      0x7ae CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x000009f9      0xadd CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
- .debug_info    0x000014d6     0x14b2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
- .debug_info    0x00002988      0xe44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
- .debug_info    0x000037cc     0x1594 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00004d60      0xa8c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
- .debug_info    0x000057ec      0x2c0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x00005aac      0x7d1 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_info    0x0000627d      0x399 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_info    0x00006616     0x11c5 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
- .debug_info    0x000077db       0x22 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
- .debug_info    0x000077fd      0xa68 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_info    0x00008265     0x10e1 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_info    0x00009346      0x7cc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_info    0x00009b12     0x39a5 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_info    0x0000d4b7      0x6cb CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
- .debug_info    0x0000db82      0x7bb CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_info    0x0000e33d      0xb1f CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_info    0x0000ee5c     0x1eb9 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_info    0x00010d15     0x3dc6 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_info    0x00014adb     0x1b03 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+.debug_info     0x00000000    0x170dd
+ .debug_info    0x00000000      0x816 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+ .debug_info    0x00000816      0x24b CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+ .debug_info    0x00000a61      0x7ae CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
+ .debug_info    0x0000120f      0xadd CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+ .debug_info    0x00001cec     0x14b2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+ .debug_info    0x0000319e      0xe44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+ .debug_info    0x00003fe2     0x187d CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x0000585f      0xa8c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
+ .debug_info    0x000062eb      0x2c0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x000065ab      0x7d1 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_info    0x00006d7c      0x399 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_info    0x00007115     0x11c5 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+ .debug_info    0x000082da       0x22 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
+ .debug_info    0x000082fc      0xa68 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_info    0x00008d64     0x10e1 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_info    0x00009e45      0x7cc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_info    0x0000a611     0x39a5 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_info    0x0000dfb6      0x6cb CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+ .debug_info    0x0000e681      0x7bb CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_info    0x0000ee3c      0xb1f CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_info    0x0000f95b     0x1eb9 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_info    0x00011814     0x3dc6 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_info    0x000155da     0x1b03 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
-.debug_abbrev   0x00000000     0x28f7
- .debug_abbrev  0x00000000      0x12e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
- .debug_abbrev  0x0000012e      0x16a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x00000298      0x1d3 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
- .debug_abbrev  0x0000046b      0x29d CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
- .debug_abbrev  0x00000708      0x1bb CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
- .debug_abbrev  0x000008c3      0x27a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000b3d      0x1d3 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
- .debug_abbrev  0x00000d10       0xd1 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_abbrev  0x00000de1      0x1b0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_abbrev  0x00000f91      0x119 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_abbrev  0x000010aa      0x1ef CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
- .debug_abbrev  0x00001299       0x12 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
- .debug_abbrev  0x000012ab      0x206 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_abbrev  0x000014b1      0x36a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_abbrev  0x0000181b      0x1ef CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_abbrev  0x00001a0a      0x27f CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_abbrev  0x00001c89      0x14f CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
- .debug_abbrev  0x00001dd8      0x1c0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00001f98      0x28a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_abbrev  0x00002222      0x25b CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_abbrev  0x0000247d      0x232 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_abbrev  0x000026af      0x248 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+.debug_abbrev   0x00000000     0x2a6e
+ .debug_abbrev  0x00000000      0x177 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+ .debug_abbrev  0x00000177      0x12e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+ .debug_abbrev  0x000002a5      0x16a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x0000040f      0x1d3 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+ .debug_abbrev  0x000005e2      0x29d CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+ .debug_abbrev  0x0000087f      0x1bb CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+ .debug_abbrev  0x00000a3a      0x27a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000cb4      0x1d3 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
+ .debug_abbrev  0x00000e87       0xd1 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_abbrev  0x00000f58      0x1b0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_abbrev  0x00001108      0x119 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_abbrev  0x00001221      0x1ef CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+ .debug_abbrev  0x00001410       0x12 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
+ .debug_abbrev  0x00001422      0x206 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_abbrev  0x00001628      0x36a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001992      0x1ef CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001b81      0x27f CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_abbrev  0x00001e00      0x14f CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+ .debug_abbrev  0x00001f4f      0x1c0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x0000210f      0x28a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_abbrev  0x00002399      0x25b CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_abbrev  0x000025f4      0x232 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_abbrev  0x00002826      0x248 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
 .debug_loc      0x00000000     0xff94
- .debug_loc     0x00000000      0x157 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
- .debug_loc     0x00000157       0x67 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
- .debug_loc     0x000001be     0x13b8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
- .debug_loc     0x00001576      0x126 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
- .debug_loc     0x0000169c       0xef CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+ .debug_loc     0x00000000       0xad CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+ .debug_loc     0x000000ad      0x157 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+ .debug_loc     0x00000204       0x67 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+ .debug_loc     0x0000026b     0x13b8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+ .debug_loc     0x00001623      0x126 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+ .debug_loc     0x00001749       0x42 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
  .debug_loc     0x0000178b       0x84 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
  .debug_loc     0x0000180f      0x158 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_loc     0x00001967      0x11a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
@@ -2116,149 +2175,156 @@ LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm
  .debug_loc     0x0000921d     0x50ad CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .debug_loc     0x0000e2ca     0x1cca CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
-.debug_aranges  0x00000000      0xfd0
+.debug_aranges  0x00000000      0xfe8
  .debug_aranges
-                0x00000000       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+                0x00000000       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
  .debug_aranges
-                0x00000030       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
+                0x00000028       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
  .debug_aranges
-                0x00000050       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+                0x00000058       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
  .debug_aranges
-                0x00000080       0x90 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+                0x00000078       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
  .debug_aranges
-                0x00000110       0x48 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+                0x000000a8       0x90 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
  .debug_aranges
-                0x00000158       0x50 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+                0x00000138       0x48 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
  .debug_aranges
-                0x000001a8       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
+                0x00000180       0x40 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x000001d8       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x000001c0       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
  .debug_aranges
-                0x000001f8       0x78 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x000001f0       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .debug_aranges
-                0x00000270       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x00000210       0x78 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_aranges
-                0x00000298       0x48 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+                0x00000288       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_aranges
-                0x000002e0       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
+                0x000002b0       0x48 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
  .debug_aranges
-                0x00000308      0x100 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x000002f8       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
  .debug_aranges
-                0x00000408       0xb0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000320      0x100 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_aranges
-                0x000004b8       0x58 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x00000420       0xb0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000510      0x2a8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                0x000004d0       0x58 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_aranges
-                0x000007b8       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+                0x00000528      0x2a8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
  .debug_aranges
-                0x000007e0       0x60 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+                0x000007d0       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
  .debug_aranges
-                0x00000840       0x88 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x000007f8       0x60 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_aranges
-                0x000008c8      0x1d0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x00000858       0x88 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000a98      0x3d0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x000008e0      0x1d0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
  .debug_aranges
-                0x00000e68      0x168 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x00000ab0      0x3d0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_aranges
+                0x00000e80      0x168 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
-.debug_ranges   0x00000000      0xf08
- .debug_ranges  0x00000000       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
- .debug_ranges  0x00000020       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
- .debug_ranges  0x00000030       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
- .debug_ranges  0x00000050       0x80 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
- .debug_ranges  0x000000d0       0x38 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
- .debug_ranges  0x00000108       0x40 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
- .debug_ranges  0x00000148       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
- .debug_ranges  0x00000168       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_ranges  0x00000178       0x68 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_ranges  0x000001e0       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_ranges  0x000001f8       0x38 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
- .debug_ranges  0x00000230       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
- .debug_ranges  0x00000250       0xf0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_ranges  0x00000340      0x100 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_ranges  0x00000440       0x48 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_ranges  0x00000488      0x2b0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_ranges  0x00000738       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
- .debug_ranges  0x00000750       0x50 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_ranges  0x000007a0       0x90 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_ranges  0x00000830      0x1c0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_ranges  0x000009f0      0x3c0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_ranges  0x00000db0      0x158 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+.debug_ranges   0x00000000      0xf10
+ .debug_ranges  0x00000000       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+ .debug_ranges  0x00000018       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+ .debug_ranges  0x00000038       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
+ .debug_ranges  0x00000048       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+ .debug_ranges  0x00000068       0x80 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+ .debug_ranges  0x000000e8       0x38 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+ .debug_ranges  0x00000120       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+ .debug_ranges  0x00000150       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
+ .debug_ranges  0x00000170       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_ranges  0x00000180       0x68 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_ranges  0x000001e8       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_ranges  0x00000200       0x38 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+ .debug_ranges  0x00000238       0x20 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
+ .debug_ranges  0x00000258       0xf0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_ranges  0x00000348      0x100 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_ranges  0x00000448       0x48 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_ranges  0x00000490      0x2b0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_ranges  0x00000740       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+ .debug_ranges  0x00000758       0x50 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_ranges  0x000007a8       0x90 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_ranges  0x00000838      0x1c0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_ranges  0x000009f8      0x3c0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_ranges  0x00000db8      0x158 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
-.debug_line     0x00000000    0x13b70
- .debug_line    0x00000000      0x2b5 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
- .debug_line    0x000002b5      0x29d CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x00000552      0x388 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
- .debug_line    0x000008da      0xb65 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
- .debug_line    0x0000143f      0x356 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
- .debug_line    0x00001795      0x5d8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
- .debug_line    0x00001d6d      0x3a3 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
- .debug_line    0x00002110      0x1a5 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x000022b5      0x385 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x0000263a      0x26d CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x000028a7      0x5a6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
- .debug_line    0x00002e4d       0xa4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
- .debug_line    0x00002ef1      0x625 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x00003516      0x819 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x00003d2f      0x75f CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x0000448e     0x54dc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_line    0x0000996a      0x2e6 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
- .debug_line    0x00009c50      0x53a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_line    0x0000a18a      0xb78 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x0000ad02     0x2613 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_line    0x0000d315     0x4b42 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x00011e57     0x1d19 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+.debug_line     0x00000000    0x13e01
+ .debug_line    0x00000000      0x287 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+ .debug_line    0x00000287      0x2b5 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+ .debug_line    0x0000053c      0x29d CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x000007d9      0x388 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+ .debug_line    0x00000b61      0xb61 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+ .debug_line    0x000016c2      0x356 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+ .debug_line    0x00001a18      0x5e6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00001ffe      0x3a3 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
+ .debug_line    0x000023a1      0x1a5 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00002546      0x385 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x000028cb      0x26d CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x00002b38      0x5a6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+ .debug_line    0x000030de       0xa4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
+ .debug_line    0x00003182      0x625 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x000037a7      0x819 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x00003fc0      0x75f CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x0000471f     0x54dc CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_line    0x00009bfb      0x2e6 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+ .debug_line    0x00009ee1      0x53a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_line    0x0000a41b      0xb78 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x0000af93     0x2613 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_line    0x0000d5a6     0x4b42 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x000120e8     0x1d19 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
-.debug_str      0x00000000     0x4bb5
- .debug_str     0x00000000      0x21b CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+.debug_str      0x00000000     0x4c19
+ .debug_str     0x00000000      0x694 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+                                0x746 (size before relaxing)
+ .debug_str     0x00000694       0xa9 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
                                 0x270 (size before relaxing)
- .debug_str     0x0000021b      0x765 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
+ .debug_str     0x0000073d      0x765 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
                                 0x923 (size before relaxing)
- .debug_str     0x00000980      0x56d CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+ .debug_str     0x00000ea2       0xf9 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
                                 0x915 (size before relaxing)
- .debug_str     0x00000eed      0x242 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+ .debug_str     0x00000f9b      0x242 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
                                 0x401 (size before relaxing)
- .debug_str     0x0000112f      0x21c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+ .debug_str     0x000011dd      0x21c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
                                 0x6ee (size before relaxing)
- .debug_str     0x0000134b      0x643 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
-                                0xefe (size before relaxing)
- .debug_str     0x0000198e       0x67 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
+ .debug_str     0x000013f9      0x5f9 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+                                0xedb (size before relaxing)
+ .debug_str     0x000019f2       0x67 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
                                 0x832 (size before relaxing)
- .debug_str     0x000019f5       0x48 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x00001a59       0x48 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
                                 0x2f8 (size before relaxing)
- .debug_str     0x00001a3d      0x132 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_str     0x00001aa1      0x132 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
                                 0x80d (size before relaxing)
- .debug_str     0x00001b6f       0xa3 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_str     0x00001bd3       0xa3 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
                                 0x35e (size before relaxing)
- .debug_str     0x00001c12      0x21a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+ .debug_str     0x00001c76      0x21a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
                                0x107a (size before relaxing)
- .debug_str     0x00001e2c       0x52 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
+ .debug_str     0x00001e90       0x52 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
                                  0x83 (size before relaxing)
- .debug_str     0x00001e7e      0x387 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_str     0x00001ee2      0x387 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                                 0xc36 (size before relaxing)
- .debug_str     0x00002205      0x492 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_str     0x00002269      0x492 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
                                 0xcd1 (size before relaxing)
- .debug_str     0x00002697       0xdf CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x000026fb       0xdf CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
                                 0x51d (size before relaxing)
- .debug_str     0x00002776      0x8f9 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_str     0x000027da      0x8f9 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
                                0x106c (size before relaxing)
- .debug_str     0x0000306f       0x57 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+ .debug_str     0x000030d3       0x57 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
                                 0x781 (size before relaxing)
- .debug_str     0x000030c6      0x15a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_str     0x0000312a      0x15a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
                                 0x508 (size before relaxing)
- .debug_str     0x00003220      0x1a0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x00003284      0x1a0 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
                                 0x743 (size before relaxing)
- .debug_str     0x000033c0      0x531 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_str     0x00003424      0x531 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
                                 0xc24 (size before relaxing)
- .debug_str     0x000038f1      0xd84 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_str     0x00003955      0xd84 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
                                0x16f3 (size before relaxing)
- .debug_str     0x00004675      0x540 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_str     0x000046d9      0x540 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
                                 0xee4 (size before relaxing)
 
 .comment        0x00000000       0x49
- .comment       0x00000000       0x49 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+ .comment       0x00000000       0x49 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
                                  0x4a (size before relaxing)
+ .comment       0x00000049       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
  .comment       0x00000049       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
  .comment       0x00000049       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
  .comment       0x00000049       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
@@ -2280,37 +2346,41 @@ LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm
  .comment       0x00000049       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .comment       0x00000049       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
-.debug_frame    0x00000000     0x2f64
- .debug_frame   0x00000000       0x60 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
- .debug_frame   0x00000060       0x38 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
- .debug_frame   0x00000098       0x64 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
- .debug_frame   0x000000fc      0x260 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
- .debug_frame   0x0000035c       0xb0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
- .debug_frame   0x0000040c       0xd0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
- .debug_frame   0x000004dc       0x68 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
- .debug_frame   0x00000544       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_frame   0x0000056c       0xf0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_frame   0x0000065c       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_frame   0x0000068c       0xc8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
- .debug_frame   0x00000754      0x20c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_frame   0x00000960      0x158 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_frame   0x00000ab8       0xd8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_frame   0x00000b90      0x988 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_frame   0x00001518       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
- .debug_frame   0x00001548       0xf4 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_frame   0x0000163c      0x16c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_frame   0x000017a8      0x5c8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_frame   0x00001d70      0xb08 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_frame   0x00002878      0x40c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_frame   0x00002c84       0x24 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
- .debug_frame   0x00002ca8       0x4c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x00002cf4       0x24 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
- .debug_frame   0x00002d18       0x2c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00002d44       0x34 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00002d78       0x2c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x00002da4       0x2c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
- .debug_frame   0x00002dd0       0x5c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00002e2c       0x20 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x00002e4c       0x34 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x00002e80       0xb0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x00002f30       0x34 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+.debug_frame    0x00000000     0x3094
+ .debug_frame   0x00000000       0x5c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
+ .debug_frame   0x0000005c       0x60 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+ .debug_frame   0x000000bc       0x38 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
+ .debug_frame   0x000000f4       0x64 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
+ .debug_frame   0x00000158      0x260 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
+ .debug_frame   0x000003b8       0xb0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
+ .debug_frame   0x00000468       0x84 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
+ .debug_frame   0x000004ec       0x68 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj
+ .debug_frame   0x00000554       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_frame   0x0000057c       0xf0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_frame   0x0000066c       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_frame   0x0000069c       0xc8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+ .debug_frame   0x00000764      0x20c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_frame   0x00000970      0x158 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_frame   0x00000ac8       0xd8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_frame   0x00000ba0      0x988 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_frame   0x00001528       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+ .debug_frame   0x00001558       0xf4 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_frame   0x0000164c      0x16c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_frame   0x000017b8      0x5c8 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_frame   0x00001d80      0xb08 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_frame   0x00002888      0x40c CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_frame   0x00002c94       0x24 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_frame   0x00002cb8       0xac d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00002d64       0x50 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00002db4       0x24 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x00002dd8       0x4c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00002e24       0x24 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x00002e48       0x2c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00002e74       0x34 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00002ea8       0x2c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00002ed4       0x2c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x00002f00       0x5c d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00002f5c       0x20 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00002f7c       0x34 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x00002fb0       0xb0 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00003060       0x34 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)

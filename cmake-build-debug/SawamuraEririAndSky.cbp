@@ -96,6 +96,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Chen/Desktop/gitStore/Core/Inc/MPU6050.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/Chen/Desktop/gitStore/Core/Inc/delay.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
@@ -130,6 +133,9 @@
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Chen/Desktop/gitStore/Core/Inc/tim.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Chen/Desktop/gitStore/Core/Src/MPU6050.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Chen/Desktop/gitStore/Core/Src/delay.c">
