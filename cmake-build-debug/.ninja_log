@@ -29,3 +29,36 @@
 5	120	7235728893344793	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj	e68641039c6add4
 1	180	7235728893640000	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj	47e2d69b8eb40fc4
 11	234	7235728894460112	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj	eb40941d76dc611d
+<<<<<<< HEAD
+=======
+0	202	7235763132007674	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj	58ebf283fa33ccf3
+7	214	7235763132437655	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj	3de63eb13df05113
+14	223	7235763132187692	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj	184b0a84694b73f4
+22	233	7235763132387425	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj	fc36e485966bd839
+31	245	7235763132561785	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/spi.c.obj	8aba2d775bfb69bf
+47	255	7235763132611163	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj	74d2715cb7b88f64
+55	266	7235763132510213	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/sysmem.c.obj	f4bc83d1def4eccc
+64	278	7235763132866820	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/syscalls.c.obj	fba105045e5c4662
+74	279	7235763132948265	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/stm32f4xx_it.c.obj	eb5aa0daffc316eb
+82	279	7235763133404656	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj	36aa1483969bd1e0
+90	280	7235763133071267	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj	ee47e45f7f6f844d
+99	281	7235763133256746	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj	c48b26af7ded4905
+109	281	7235763132938277	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj	971f11897a2a7bf7
+121	282	7235763133529398	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj	d083828b345e16e8
+133	282	7235763133761304	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj	dfc88238916791b5
+152	283	7235763133781288	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj	11ea0f9ac7ff2feb
+40	284	7235763133691076	CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj	5e50d6c50ffe67d5
+163	287	7235763133937830	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj	3dc5b7c1faf8c7f0
+183	287	7235763133949344	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj	bf420da9d846bebe
+144	293	7235763134019346	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj	a579684b36867caf
+190	309	7235763134169356	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj	d7b1d885a154ac88
+174	310	7235763134189358	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj	8d41979ebb57bb98
+203	311	7235763134209362	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj	e7f5c1ea38a4c781
+214	328	7235763134370465	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj	e1ce52d49d1db6a4
+233	356	7235763134656189	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj	d2002f81342b78ae
+255	363	7235763134723529	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj	82f5c63e7209c463
+223	419	7235763135280446	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj	4b9184d5d395da57
+266	431	7235763135385474	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj	6f0e4c43ae69e0ac
+245	532	7235763136410060	CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj	f8318237174ed4bd
+532	687	7235763137357583	SawamuraEririAndSky.elf	4749e7461a732d96
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d

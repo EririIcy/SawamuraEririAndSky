@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe")
+set(CMAKE_CXX_COMPILER "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "10.3.1")
@@ -23,10 +23,10 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "arm-none-eabi-ar")
-set(CMAKE_CXX_COMPILER_AR "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe")
-set(CMAKE_RANLIB "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ld.exe")
+set(CMAKE_CXX_COMPILER_AR "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe")
+set(CMAKE_RANLIB "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
@@ -79,7 +79,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/backward;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/backward;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/SawamuraEririAndSky.iml" filepath="$PROJECT_DIR$/.idea/SawamuraEririAndSky.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/gitStore.iml" filepath="$PROJECT_DIR$/.idea/gitStore.iml" />
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
     </modules>
   </component>
 </project>

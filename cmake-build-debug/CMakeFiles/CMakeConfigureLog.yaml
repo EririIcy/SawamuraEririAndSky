@@ -4,7 +4,11 @@ events:
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:199 (message)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     message: |
       The target system is: Generic - 1 - 
@@ -12,19 +16,25 @@ events:
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe 
+      Compiler: D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       1
-      d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
       exit.c:(.text.exit+0x2c): undefined reference to `_exit'
       collect2.exe: error: ld returned 1 exit status
       
@@ -32,13 +42,19 @@ events:
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe 
+      Compiler: D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe 
       Build flags: 
       Id flags: -c 
       
@@ -49,24 +65,34 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
+<<<<<<< HEAD
         D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.o
+=======
+        C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe 
+      Compiler: D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       1
-      d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
       exit.c:(.text.exit+0x2c): undefined reference to `_exit'
       collect2.exe: error: ld returned 1 exit status
       
@@ -74,13 +100,19 @@ events:
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe 
+      Compiler: D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe 
       Build flags: 
       Id flags: -c 
       
@@ -91,13 +123,22 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
+<<<<<<< HEAD
         D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.o
+=======
+        C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1107 (message)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
@@ -109,14 +150,24 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
+<<<<<<< HEAD
       source: "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-y634kp"
       binary: "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-y634kp"
+=======
+      source: "C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q76lq3"
+      binary: "C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q76lq3"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -125,39 +176,51 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< HEAD
         Change Dir: 'D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-y634kp'
         
         Run Build Command(s): "D:/tools/clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_7a66f
         [1/2] D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj -c "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+=======
+        Change Dir: C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q76lq3
+        
+        Run Build Command(s):C:/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_5bd83 && [1/2] D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj -c "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         Using built-in specs.
-        COLLECT_GCC=D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_GCC=D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
         Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+<<<<<<< HEAD
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
          d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\21714\\AppData\\Local\\Temp\\ccJ2FyPO.s
+=======
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\Chen\\AppData\\Local\\Temp\\ccJJdXNM.s
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
-        ignoring nonexistent directory "d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
-        ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
-        ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
-        ignoring nonexistent directory "d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/usr/include"
+        ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/usr/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
-         d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
-         d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+         d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
         End of search list.
         GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
+<<<<<<< HEAD
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
          d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj C:\\Users\\21714\\AppData\\Local\\Temp\\ccJ2FyPO.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
@@ -165,70 +228,101 @@ events:
         LIBRARY_PATH=d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
         [2/2] cmd.exe /C "cd . && "D:\\tools\\clion\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_7a66f.a && arm-none-eabi-ar qc libcmTC_7a66f.a  CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj && D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_7a66f.a && cd ."
+=======
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj C:\\Users\\Chen\\AppData\\Local\\Temp\\ccJJdXNM.s
+        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+        COMPILER_PATH=d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        [2/2] cmd.exe /C "cd . && "C:\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_5bd83.a && arm-none-eabi-ar qc libcmTC_5bd83.a  CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj && D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_5bd83.a && cd ."
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
-          add: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-          add: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+          add: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+          add: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+          add: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
         end of search list found
-        collapse include dir [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include]
-        collapse include dir [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-        collapse include dir [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include]
-        implicit include dirs: [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include]
+        collapse include dir [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include]
+        collapse include dir [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        collapse include dir [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include]
+        implicit include dirs: [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include]
       
       
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+<<<<<<< HEAD
         ignore line: [Change Dir: 'D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-y634kp']
         ignore line: []
         ignore line: [Run Build Command(s): "D:/tools/clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_7a66f]
         ignore line: [[1/2] D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj -c "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
+=======
+        ignore line: [Change Dir: C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q76lq3]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_5bd83 && [1/2] D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj -c "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [COLLECT_GCC=D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
         ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
+<<<<<<< HEAD
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
         ignore line: [ d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\21714\\AppData\\Local\\Temp\\ccJ2FyPO.s]
+=======
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\Chen\\AppData\\Local\\Temp\\ccJJdXNM.s]
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
-        ignore line: [ignoring nonexistent directory "d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
-        ignore line: [ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
-        ignore line: [ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
-        ignore line: [ignoring nonexistent directory "d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+        ignore line: [ignoring nonexistent directory "d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/usr/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
-        ignore line: [ d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-        ignore line: [ d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        ignore line: [ d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
+        ignore line: [ d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        ignore line: [ d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f3937ce18b4177bfd408ca565336596a]
+<<<<<<< HEAD
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
         ignore line: [ d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj C:\\Users\\21714\\AppData\\Local\\Temp\\ccJ2FyPO.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
@@ -241,6 +335,20 @@ events:
         ignore line: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
         ignore line: [[2/2] cmd.exe /C "cd . && "D:\\tools\\clion\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_7a66f.a && arm-none-eabi-ar qc libcmTC_7a66f.a  CMakeFiles/cmTC_7a66f.dir/CMakeCCompilerABI.c.obj && D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_7a66f.a && cd ."]
+=======
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj C:\\Users\\Chen\\AppData\\Local\\Temp\\ccJJdXNM.s]
+        ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
+        ignore line: [COMPILER_PATH=d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/]
+        ignore line: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/]
+        ignore line: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [[2/2] cmd.exe /C "cd . && "C:\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_5bd83.a && arm-none-eabi-ar qc libcmTC_5bd83.a  CMakeFiles/cmTC_5bd83.dir/CMakeCCompilerABI.c.obj && D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_5bd83.a && cd ."]
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -252,14 +360,24 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
+<<<<<<< HEAD
       source: "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-55fvgc"
       binary: "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-55fvgc"
+=======
+      source: "C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pcyo3v"
+      binary: "C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pcyo3v"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -268,45 +386,57 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< HEAD
         Change Dir: 'D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-55fvgc'
         
         Run Build Command(s): "D:/tools/clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_f8e10
         [1/2] D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+=======
+        Change Dir: C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pcyo3v
+        
+        Run Build Command(s):C:/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_8aab5 && [1/2] D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         Using built-in specs.
-        COLLECT_GCC=D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe
+        COLLECT_GCC=D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
         Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+<<<<<<< HEAD
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
          d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\21714\\AppData\\Local\\Temp\\ccyQO3Wr.s
+=======
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\Chen\\AppData\\Local\\Temp\\cclPfkk5.s
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"
-        ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"
-        ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"
-        ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
-        ignoring nonexistent directory "d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
-        ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
-        ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
-        ignoring nonexistent directory "d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/usr/include"
+        ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"
+        ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"
+        ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"
+        ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/usr/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1
-         d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi
-         d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward
-         d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
-         d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
-         d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+         d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1
+         d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi
+         d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward
+         d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
         End of search list.
         GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118
+<<<<<<< HEAD
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
          d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\21714\\AppData\\Local\\Temp\\ccyQO3Wr.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
@@ -314,82 +444,113 @@ events:
         LIBRARY_PATH=d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
         [2/2] cmd.exe /C "cd . && "D:\\tools\\clion\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_f8e10.a && arm-none-eabi-ar qc libcmTC_f8e10.a  CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj && D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_f8e10.a && cd ."
+=======
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Chen\\AppData\\Local\\Temp\\cclPfkk5.s
+        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+        COMPILER_PATH=d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        [2/2] cmd.exe /C "cd . && "C:\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_8aab5.a && arm-none-eabi-ar qc libcmTC_8aab5.a  CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj && D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_8aab5.a && cd ."
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
-          add: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
-          add: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
-          add: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
-          add: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-          add: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+          add: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+          add: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+          add: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+          add: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+          add: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+          add: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
         end of search list found
-        collapse include dir [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1] ==> [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1]
-        collapse include dir [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi] ==> [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
-        collapse include dir [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/backward]
-        collapse include dir [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include]
-        collapse include dir [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-        collapse include dir [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include]
-        implicit include dirs: [D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/backward;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include]
+        collapse include dir [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1] ==> [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1]
+        collapse include dir [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi] ==> [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+        collapse include dir [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/backward]
+        collapse include dir [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include]
+        collapse include dir [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        collapse include dir [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include]
+        implicit include dirs: [D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/backward;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/GNU_Tools_ARM_Embedded/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include]
       
       
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
       - "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+=======
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+<<<<<<< HEAD
         ignore line: [Change Dir: 'D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-55fvgc']
         ignore line: []
         ignore line: [Run Build Command(s): "D:/tools/clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_f8e10]
         ignore line: [[1/2] D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
+=======
+        ignore line: [Change Dir: C:/Users/Chen/Desktop/gitStore/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pcyo3v]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_8aab5 && [1/2] D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"]
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [COLLECT_GCC=D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
         ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
+<<<<<<< HEAD
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
         ignore line: [ d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:/tools/clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\21714\\AppData\\Local\\Temp\\ccyQO3Wr.s]
+=======
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\Chen\\AppData\\Local\\Temp\\cclPfkk5.s]
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"]
-        ignore line: [ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"]
-        ignore line: [ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"]
-        ignore line: [ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
-        ignore line: [ignoring nonexistent directory "d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
-        ignore line: [ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
-        ignore line: [ignoring duplicate directory "d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
-        ignore line: [ignoring nonexistent directory "d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"]
+        ignore line: [ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"]
+        ignore line: [ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"]
+        ignore line: [ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+        ignore line: [ignoring nonexistent directory "d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi/usr/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
-        ignore line: [ d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
-        ignore line: [ d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
-        ignore line: [ d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
-        ignore line: [ d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-        ignore line: [ d:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        ignore line: [ d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+        ignore line: [ d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+        ignore line: [ d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+        ignore line: [ d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
+        ignore line: [ d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        ignore line: [ d:\\gnu_tools_arm_embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118]
+<<<<<<< HEAD
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
         ignore line: [ d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\21714\\AppData\\Local\\Temp\\ccyQO3Wr.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
@@ -402,6 +563,20 @@ events:
         ignore line: [d:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
         ignore line: [[2/2] cmd.exe /C "cd . && "D:\\tools\\clion\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_f8e10.a && arm-none-eabi-ar qc libcmTC_f8e10.a  CMakeFiles/cmTC_f8e10.dir/CMakeCXXCompilerABI.cpp.obj && D:\\tools\\gcc-arm-none-eabi-10.3-2021.10-win32\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_f8e10.a && cd ."]
+=======
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Chen\\AppData\\Local\\Temp\\cclPfkk5.s]
+        ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
+        ignore line: [COMPILER_PATH=d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/]
+        ignore line: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/]
+        ignore line: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [[2/2] cmd.exe /C "cd . && "C:\\CLion 2023.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_8aab5.a && arm-none-eabi-ar qc libcmTC_8aab5.a  CMakeFiles/cmTC_8aab5.dir/CMakeCXXCompilerABI.cpp.obj && D:\\GNU_Tools_ARM_Embedded\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-ranlib.exe libcmTC_8aab5.a && cd ."]
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
         ignore line: []
         ignore line: []
         implicit libs: []

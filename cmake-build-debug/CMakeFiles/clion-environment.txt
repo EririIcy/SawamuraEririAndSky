@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ToolSet: 11.0 w64 (local)@D:\tools\clion\CLion 2023.2.2\bin\mingw
+=======
+ToolSet: 5.0 (local)@D:\MinGW
+>>>>>>> 4c821d2e336a056648cda4655eb92a1a0adf852d
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=D:/tools/clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe
+Options:-DCMAKE_MAKE_PROGRAM=C:/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe
