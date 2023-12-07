@@ -27,6 +27,7 @@ set(CMAKE_RANLIB "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eab
 set(CMAKE_C_COMPILER_RANLIB "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe")
 set(CMAKE_LINKER "D:/tools/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ld.exe")
 set(CMAKE_MT "")
+set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -38,6 +39,7 @@ set(CMAKE_C_COMPILER_ID_RUN 1)
 set(CMAKE_C_SOURCE_FILE_EXTENSIONS c;m)
 set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
 set(CMAKE_C_LINKER_PREFERENCE 10)
+set(CMAKE_C_LINKER_DEPFILE_SUPPORTED TRUE)
 
 # Save compiler ABI information.
 set(CMAKE_C_SIZEOF_DATA_PTR "4")
