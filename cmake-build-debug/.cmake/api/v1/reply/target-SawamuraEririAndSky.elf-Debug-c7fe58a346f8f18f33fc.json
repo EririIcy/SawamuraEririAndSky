@@ -151,23 +151,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Chen/Desktop/gitStore/Core/Inc"
+					"path" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Chen/Desktop/gitStore/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Chen/Desktop/gitStore/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Chen/Desktop/gitStore/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Chen/Desktop/gitStore/Drivers/CMSIS/Include"
+					"path" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -285,23 +285,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Chen/Desktop/gitStore/Core/Inc"
+					"path" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Chen/Desktop/gitStore/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Chen/Desktop/gitStore/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Chen/Desktop/gitStore/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Chen/Desktop/gitStore/Drivers/CMSIS/Include"
+					"path" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
@@ -326,7 +326,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/Chen/Desktop/gitStore/cmake-build-debug/SawamuraEririAndSky.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/SawamuraEririAndSky.map",
 				"role" : "flags"
 			},
 			{
@@ -351,7 +351,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:/Users/Chen/Desktop/gitStore/STM32F429IGTX_FLASH.ld",
+				"fragment" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/STM32F429IGTX_FLASH.ld",
 				"role" : "flags"
 			}
 		],

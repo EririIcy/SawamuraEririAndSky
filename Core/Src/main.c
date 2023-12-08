@@ -53,9 +53,14 @@ static int keyInterrupt1 = 0; //PG6
 static int keyInterrupt2 = 0; //PG7
 static int pwm_duty = 300;
 
-int16_t acceleration_x = 0;
+int16_t acceleration_x = 0;  //加速度计的三个轴的值
 int16_t acceleration_y = 0;
 int16_t acceleration_z = 0;
+
+int16_t gyro_x = 0;  //陀螺仪的三个轴的值
+int16_t gyro_y = 0;
+int16_t gyro_z = 0;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -63,6 +68,7 @@ void SystemClock_Config(void);
 
 /* USER CODE BEGIN PFP */
 
+/*外部中断回调函数，检验PG6,PG7按键是否按下*/
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN) {
     if (GPIO_PIN == GPIO_PIN_6) {
         keyInterrupt1 = 1;
@@ -76,7 +82,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN) {
 }
 
 
-
+/*中断回调函数，tim2用以按键消抖*/
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM2) {
         if (keyInterrupt1 == 1) {
@@ -94,6 +100,15 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
             keyInterrupt2 = 0;
         }
     }
+}
+
+/*传入一个16位整数，若为负数补码，则转换为负数原码*/
+int16_t getOriginalNum(int16_t num) {
+    if (num & 0x8000)//用位与来检测最高位。真表示是一个负数
+    {
+        num = ~num + 1;//还原补码
+    }
+    return num;
 }
 /* USER CODE END PFP */
 
@@ -154,47 +169,15 @@ int main(void) {
 
         /* USER CODE BEGIN 3 */
         MPU6050_ReadAccel(&hi2c2, &acceleration_x, &acceleration_y, &acceleration_z);
-
+        MPU6050_ReadGyro(&hi2c2, &gyro_x, &gyro_y, &gyro_z);
 
         LCD_ShowString(0, 55, "pwm_duty:", RED, WHITE, 16, 0);
         LCD_ShowFloatNum1(80, 55, pwm_duty, 5, RED, WHITE, 16);
         HAL_Delay(200);
-        LCD_ShowString(50, 70, "x:", RED, WHITE, 16, 0);
-        LCD_ShowString(50, 90, "y:", RED, WHITE, 16, 0);
-        LCD_ShowString(50, 110, "z:", RED, WHITE, 16, 0);
-        LCD_ShowString(140, 70, "m/s^2", RED, WHITE, 16, 0);
-        LCD_ShowString(140, 90, "m/s^2", RED, WHITE, 16, 0);
-        LCD_ShowString(140, 110, "m/s^2", RED, WHITE, 16, 0);
-
-        if (acceleration_x & 0x8000)//用位与来检测最高位。真表示是一个负数
-        {
-            LCD_ShowChar(65, 70, '-', RED, WHITE, 16, 1);
-            acceleration_x = ~acceleration_x + 1;//还原补码
-            LCD_ShowFloatNum1(80, 70, (float)acceleration_x/65535.0*4*9.8,4,RED,WHITE,16);
-        } else {
-            LCD_ShowChar(65, 70, '-', WHITE, WHITE, 16, 1);
-            LCD_ShowFloatNum1(80, 70, (float)acceleration_x/65535.0*4*9.8,4,RED,WHITE,16);
-        }
-        if (acceleration_y & 0x8000)//用位与来检测最高位。真表示是一个负数
-        {
-            LCD_ShowChar(65, 90, '-', RED, WHITE, 16, 1);
-            acceleration_y = ~acceleration_y + 1;//还原补码
-            LCD_ShowFloatNum1(80, 90, (float)acceleration_y/65535.0*4*9.8,4,RED,WHITE,16);
-        } else {
-            LCD_ShowChar(65, 90, '-', WHITE, WHITE, 16, 1);
-            LCD_ShowFloatNum1(80, 90, (float)acceleration_y/65535.0*4*9.8,4,RED,WHITE,16);
-        }
-        if (acceleration_z & 0x8000)//用位与来检测最高位。真表示是一个负数
-        {
-            LCD_ShowChar(65, 110, '-', RED, WHITE, 16, 1);
-            acceleration_z = ~acceleration_z + 1;//还原补码
-            LCD_ShowFloatNum1(80, 110, (float)acceleration_z/65535.0*4*9.8,4,RED,WHITE,16);
-        } else {
-            LCD_ShowChar(65, 70, '-', WHITE, WHITE, 16, 1);
-            LCD_ShowFloatNum1(80, 110, (float)acceleration_z/65535.0*4*9.8,4,RED,WHITE,16);
-        }
-
+        MPU6050_LCD_PrintAccel(acceleration_x, acceleration_y, acceleration_z);
+        MPU6050_LCD_PrintGyro(gyro_x, gyro_y, gyro_z);
     }
+
     /* USER CODE END 3 */
 }
 

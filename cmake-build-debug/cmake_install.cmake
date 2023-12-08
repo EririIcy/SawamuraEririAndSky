@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Chen/Desktop/gitStore
+# Install script for directory: D:/hardware/flyToTheFuckSky/SawamuraEririAndSky
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Chen/Desktop/gitStore/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

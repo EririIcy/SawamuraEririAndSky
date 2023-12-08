@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SawamuraEririAndSky.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SawamuraEririAndSky.elf-Debug-f0a83dd01f7a6a16040e.json",
+					"jsonFile" : "target-SawamuraEririAndSky.elf-Debug-c7fe58a346f8f18f33fc.json",
 					"name" : "SawamuraEririAndSky.elf",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Chen/Desktop/gitStore/cmake-build-debug",
-		"source" : "C:/Users/Chen/Desktop/gitStore"
+		"build" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky/cmake-build-debug",
+		"source" : "D:/hardware/flyToTheFuckSky/SawamuraEririAndSky"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 6
 	}
 }
