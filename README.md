@@ -54,7 +54,6 @@ https://www.bilibili.com/video/BV1zM4y157pk/  非常好且形象    P:比例 I�
 ### 3.4 二阶PID控制器（串级PID）
 
 
-
 ## 4.加装遥控部分，调整PID至能一定程度起飞    
 
 ## 5.加装后续功能

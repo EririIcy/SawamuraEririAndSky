@@ -1,5 +1,5 @@
 "C:\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky -B D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug
 -- Minimal optimization, debug info included
--- Configuring done (0.1s)
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/cmake-build-debug
