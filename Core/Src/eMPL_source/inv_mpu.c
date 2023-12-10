@@ -22,11 +22,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include "inv_mpu.h"
-#include "inv_mpu_dmp_motion_driver.h"
+#include "eMPL_header/inv_mpu.h"
+#include "eMPL_header/inv_mpu_dmp_motion_driver.h"
 #include "mpu6050.h"
 #include "delay.h"
-#include "usart.h"
+//#include "usart.h"
 
 #define MPU6050                     //定义我们使用的传感器为MPU6050
 #define MOTION_DRIVER_TARGET_MSP430 //定义驱动部分,采用MSP430的驱动(移植到STM32F1)

@@ -5,8 +5,8 @@
 #ifndef SAWAMURAERIRIANDSKY_MPU6050_H
 #define SAWAMURAERIRIANDSKY_MPU6050_H
 #include "mpuiic.h"
-#include "inv_mpu.h"
-#include "inv_mpu_dmp_motion_driver.h"
+#include "eMPL_header/inv_mpu.h"
+#include "eMPL_header/inv_mpu_dmp_motion_driver.h"
 
 /*
 硬件I2C模式

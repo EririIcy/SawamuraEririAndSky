@@ -3,7 +3,7 @@ Archive member included to satisfy reference by file (symbol)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldf3.o)
                               CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj (__aeabi_dmul)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (__aeabi_fmul)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (__aeabi_fmul)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
                               CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj (__aeabi_f2d)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
@@ -11,17 +11,17 @@ d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_truncdfsf2.o)
                               CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj (__aeabi_d2f)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (__aeabi_fsub)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (__aeabi_fsub)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (__aeabi_fdiv)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (__aeabi_fdiv)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpsf2.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (__aeabi_fcmpeq)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (__aeabi_fcmpeq)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixsfsi.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (__aeabi_f2iz)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (__aeabi_f2iz)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj (__aeabi_f2uiz)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj (__aeabi_f2uiz)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_ldivmod.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (__aeabi_ldivmod)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (__aeabi_ldivmod)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
                               CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj (__aeabi_uldivmod)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
@@ -37,13 +37,13 @@ d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
                               d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (__libc_init_array)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcmp.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (memcmp)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (memcmp)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
                               d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (memset)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-printf.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (printf)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (printf)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-puts.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (puts)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (puts)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
                               d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-puts.o) (strlen)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfprintf.o)
@@ -151,9 +151,9 @@ d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixdfsi.o)
                               d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfprintf.o) (__aeabi_d2iz)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(lib_a-w_asin.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (asin)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (asin)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(lib_a-w_atan2.o)
-                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj (atan2)
+                              CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj (atan2)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(lib_a-e_asin.o)
                               d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(lib_a-w_asin.o) (__ieee754_asin)
 d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(lib_a-e_atan2.o)
@@ -188,6 +188,216 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
  .data          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
  .bss           0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+ .text          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .data          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.get_accel_prod_shift
+                0x00000000       0xc4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.accel_self_test
+                0x00000000       0xa8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.gyro_self_test
+                0x00000000      0x100 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.set_int_enable
+                0x00000000       0x98 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.get_st_biases
+                0x00000000      0x428 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .rodata.mpu_reg_dump.str1.4
+                0x00000000        0xd CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_reg_dump
+                0x00000000       0x58 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_read_reg
+                0x00000000       0x40 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_gyro_reg
+                0x00000000       0x64 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_accel_reg
+                0x00000000       0x64 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_temperature
+                0x00000000       0x88 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_accel_bias
+                0x00000000      0x14c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_reset_fifo
+                0x00000000      0x1f8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_gyro_fsr
+                0x00000000       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_gyro_fsr
+                0x00000000       0x98 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_accel_fsr
+                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_accel_fsr
+                0x00000000       0x94 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_lpf
+                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_lpf
+                0x00000000       0x94 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_sample_rate
+                0x00000000       0x1c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_compass_sample_rate
+                0x00000000        0xa CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_compass_sample_rate
+                0x00000000        0x6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_gyro_sens
+                0x00000000       0x4c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_accel_sens
+                0x00000000       0x4c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_fifo_config
+                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_configure_fifo
+                0x00000000       0x64 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_power_state
+                0x00000000       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_int_status
+                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_read_fifo
+                0x00000000      0x20c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_read_fifo_stream
+                0x00000000       0xc0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_bypass
+                0x00000000      0x168 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_int_level
+                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_int_latched
+                0x00000000       0x74 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_lp_accel_mode
+                0x00000000       0xdc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_sample_rate
+                0x00000000       0xa0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_sensors
+                0x00000000       0xe4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .rodata.mpu_init.str1.4
+                0x00000000       0x69 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_init
+                0x00000000      0x1b0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_write_mem
+                0x00000000       0x74 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_read_mem
+                0x00000000       0x74 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_load_firmware
+                0x00000000       0xb4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_set_dmp_state
+                0x00000000       0x94 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_run_self_test
+                0x00000000      0x104 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_dmp_state
+                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.setup_compass
+                0x00000000        0x6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_compass_reg
+                0x00000000        0x6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_get_compass_fsr
+                0x00000000        0x6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_lp_motion_interrupt
+                0x00000000      0x1ec CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.run_self_test
+                0x00000000       0x88 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.inv_row_2_scale
+                0x00000000       0x3a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.inv_orientation_matrix_to_scalar
+                0x00000000       0x24 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mget_ms  0x00000000        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_dmp_init
+                0x00000000       0x98 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text.mpu_dmp_get_data
+                0x00000000      0x1c8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .data.gyro_orientation
+                0x00000000        0x9 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .data.st       0x00000000       0x2c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .rodata.hw     0x00000000        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .rodata.reg    0x00000000       0x1b CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .rodata.test   0x00000000       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .debug_info    0x00000000     0x2c97 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .debug_abbrev  0x00000000      0x29d CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .debug_loc     0x00000000     0x1eb9 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .debug_aranges
+                0x00000000      0x1b8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .debug_ranges  0x00000000      0x1e0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .debug_line    0x00000000     0x27e4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .debug_str     0x00000000      0xdd1 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .debug_frame   0x00000000      0x6e0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+ .text          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .data          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.decode_gesture
+                0x00000000       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_load_motion_driver_firmware
+                0x00000000       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .rodata.dmp_set_orientation.str1.4
+                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_orientation
+                0x00000000      0x14c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_gyro_bias
+                0x00000000      0x110 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_accel_bias
+                0x00000000       0xf4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .rodata.dmp_set_fifo_rate.str1.4
+                0x00000000        0xd CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_fifo_rate
+                0x00000000       0x68 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_get_fifo_rate
+                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_tap_thresh
+                0x00000000      0x1a0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_tap_axes
+                0x00000000       0x4e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_tap_count
+                0x00000000       0x2c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_tap_time
+                0x00000000       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_tap_time_multi
+                0x00000000       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_shake_reject_thresh
+                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_shake_reject_time
+                0x00000000       0x2c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_shake_reject_timeout
+                0x00000000       0x2c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_get_pedometer_step_count
+                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_pedometer_step_count
+                0x00000000       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_get_pedometer_walk_time
+                0x00000000       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_pedometer_walk_time
+                0x00000000       0x40 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_get_enabled_features
+                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .rodata.dmp_enable_gyro_cal.str1.4
+                0x00000000       0x16 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_enable_gyro_cal
+                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_enable_lp_quat
+                0x00000000       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_enable_6x_lp_quat
+                0x00000000       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_enable_feature
+                0x00000000      0x218 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .rodata.dmp_set_interrupt_mode.str1.4
+                0x00000000       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_set_interrupt_mode
+                0x00000000       0x60 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_read_fifo
+                0x00000000      0x1f4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_register_tap_cb
+                0x00000000        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .text.dmp_register_android_orient_cb
+                0x00000000        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .bss.dmp       0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .rodata.dmp_memory
+                0x00000000      0xbf6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .debug_info    0x00000000     0x1385 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .debug_abbrev  0x00000000      0x1d0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .debug_loc     0x00000000      0x8ab CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .debug_aranges
+                0x00000000       0xf8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .debug_ranges  0x00000000       0xe8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .debug_line    0x00000000      0xf93 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .debug_str     0x00000000      0x734 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .debug_frame   0x00000000      0x360 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
  .text          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
  .data          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
  .bss           0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
@@ -196,216 +406,6 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
  .text.HAL_I2C_MspDeInit
                 0x00000000       0x38 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
- .text          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .data          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .bss           0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.get_accel_prod_shift
-                0x00000000       0xc4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.accel_self_test
-                0x00000000       0xa8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.gyro_self_test
-                0x00000000      0x100 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.set_int_enable
-                0x00000000       0x98 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.get_st_biases
-                0x00000000      0x428 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .rodata.mpu_reg_dump.str1.4
-                0x00000000        0xd CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_reg_dump
-                0x00000000       0x58 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_read_reg
-                0x00000000       0x40 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_gyro_reg
-                0x00000000       0x64 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_accel_reg
-                0x00000000       0x64 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_temperature
-                0x00000000       0x88 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_accel_bias
-                0x00000000      0x14c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_reset_fifo
-                0x00000000      0x1f8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_gyro_fsr
-                0x00000000       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_gyro_fsr
-                0x00000000       0x98 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_accel_fsr
-                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_accel_fsr
-                0x00000000       0x94 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_lpf
-                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_lpf
-                0x00000000       0x94 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_sample_rate
-                0x00000000       0x1c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_compass_sample_rate
-                0x00000000        0xa CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_compass_sample_rate
-                0x00000000        0x6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_gyro_sens
-                0x00000000       0x4c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_accel_sens
-                0x00000000       0x4c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_fifo_config
-                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_configure_fifo
-                0x00000000       0x64 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_power_state
-                0x00000000       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_int_status
-                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_read_fifo
-                0x00000000      0x20c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_read_fifo_stream
-                0x00000000       0xc0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_bypass
-                0x00000000      0x168 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_int_level
-                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_int_latched
-                0x00000000       0x74 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_lp_accel_mode
-                0x00000000       0xdc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_sample_rate
-                0x00000000       0xa0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_sensors
-                0x00000000       0xe4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .rodata.mpu_init.str1.4
-                0x00000000       0x69 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_init
-                0x00000000      0x1b0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_write_mem
-                0x00000000       0x74 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_read_mem
-                0x00000000       0x74 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_load_firmware
-                0x00000000       0xb4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_set_dmp_state
-                0x00000000       0x94 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_run_self_test
-                0x00000000      0x104 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_dmp_state
-                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.setup_compass
-                0x00000000        0x6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_compass_reg
-                0x00000000        0x6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_get_compass_fsr
-                0x00000000        0x6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_lp_motion_interrupt
-                0x00000000      0x1ec CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.run_self_test
-                0x00000000       0x88 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.inv_row_2_scale
-                0x00000000       0x3a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.inv_orientation_matrix_to_scalar
-                0x00000000       0x24 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mget_ms  0x00000000        0x2 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_dmp_init
-                0x00000000       0x98 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text.mpu_dmp_get_data
-                0x00000000      0x1c8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .data.gyro_orientation
-                0x00000000        0x9 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .data.st       0x00000000       0x2c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .rodata.hw     0x00000000        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .rodata.reg    0x00000000       0x1b CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .rodata.test   0x00000000       0x28 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .debug_info    0x00000000     0x2c97 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .debug_abbrev  0x00000000      0x29d CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .debug_loc     0x00000000     0x1eb9 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .debug_aranges
-                0x00000000      0x1b8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .debug_ranges  0x00000000      0x1e0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .debug_line    0x00000000     0x2787 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .debug_str     0x00000000      0xdc5 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .comment       0x00000000       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .debug_frame   0x00000000      0x6e0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .ARM.attributes
-                0x00000000       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
- .text          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .data          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .bss           0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.decode_gesture
-                0x00000000       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_load_motion_driver_firmware
-                0x00000000       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .rodata.dmp_set_orientation.str1.4
-                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_orientation
-                0x00000000      0x14c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_gyro_bias
-                0x00000000      0x110 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_accel_bias
-                0x00000000       0xf4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .rodata.dmp_set_fifo_rate.str1.4
-                0x00000000        0xd CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_fifo_rate
-                0x00000000       0x68 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_get_fifo_rate
-                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_tap_thresh
-                0x00000000      0x1a0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_tap_axes
-                0x00000000       0x4e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_tap_count
-                0x00000000       0x2c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_tap_time
-                0x00000000       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_tap_time_multi
-                0x00000000       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_shake_reject_thresh
-                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_shake_reject_time
-                0x00000000       0x2c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_shake_reject_timeout
-                0x00000000       0x2c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_get_pedometer_step_count
-                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_pedometer_step_count
-                0x00000000       0x30 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_get_pedometer_walk_time
-                0x00000000       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_pedometer_walk_time
-                0x00000000       0x40 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_get_enabled_features
-                0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .rodata.dmp_enable_gyro_cal.str1.4
-                0x00000000       0x16 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_enable_gyro_cal
-                0x00000000       0x44 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_enable_lp_quat
-                0x00000000       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_enable_6x_lp_quat
-                0x00000000       0x3c CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_enable_feature
-                0x00000000      0x218 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .rodata.dmp_set_interrupt_mode.str1.4
-                0x00000000       0x18 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_set_interrupt_mode
-                0x00000000       0x60 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_read_fifo
-                0x00000000      0x1f4 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_register_tap_cb
-                0x00000000        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_register_android_orient_cb
-                0x00000000        0xc CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .bss.dmp       0x00000000       0x10 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .rodata.dmp_memory
-                0x00000000      0xbf6 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .debug_info    0x00000000     0x1385 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .debug_abbrev  0x00000000      0x1d0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .debug_loc     0x00000000      0x8ab CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .debug_aranges
-                0x00000000       0xf8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .debug_ranges  0x00000000       0xe8 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .debug_line    0x00000000      0xf7b CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .debug_str     0x00000000      0x728 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .comment       0x00000000       0x4a CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .debug_frame   0x00000000      0x360 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
- .ARM.attributes
-                0x00000000       0x2e CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
  .text          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
  .data          0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
  .bss           0x00000000        0x0 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
@@ -2302,10 +2302,10 @@ LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm
 LOAD d:/gnu_tools_arm_embedded/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
 LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj
 LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj
+LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
 LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/gpio.c.obj
 LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.obj
-LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
-LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
 LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd.c.obj
 LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/lcd_init.c.obj
 LOAD CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj
