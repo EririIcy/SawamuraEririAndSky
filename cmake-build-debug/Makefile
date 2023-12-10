@@ -176,6 +176,54 @@ Core/Src/delay.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.s
 .PHONY : Core/Src/delay.c.s
 
+Core/Src/eMPL_source/inv_mpu.obj: Core/Src/eMPL_source/inv_mpu.c.obj
+.PHONY : Core/Src/eMPL_source/inv_mpu.obj
+
+# target to build an object file
+Core/Src/eMPL_source/inv_mpu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj
+.PHONY : Core/Src/eMPL_source/inv_mpu.c.obj
+
+Core/Src/eMPL_source/inv_mpu.i: Core/Src/eMPL_source/inv_mpu.c.i
+.PHONY : Core/Src/eMPL_source/inv_mpu.i
+
+# target to preprocess a source file
+Core/Src/eMPL_source/inv_mpu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.i
+.PHONY : Core/Src/eMPL_source/inv_mpu.c.i
+
+Core/Src/eMPL_source/inv_mpu.s: Core/Src/eMPL_source/inv_mpu.c.s
+.PHONY : Core/Src/eMPL_source/inv_mpu.s
+
+# target to generate assembly for a file
+Core/Src/eMPL_source/inv_mpu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.s
+.PHONY : Core/Src/eMPL_source/inv_mpu.c.s
+
+Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.obj: Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+.PHONY : Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.obj
+
+# target to build an object file
+Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+.PHONY : Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.obj
+
+Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.i: Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.i
+.PHONY : Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.i
+
+# target to preprocess a source file
+Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.i
+.PHONY : Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.i
+
+Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.s: Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.s
+.PHONY : Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.s
+
+# target to generate assembly for a file
+Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.s
+.PHONY : Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -223,54 +271,6 @@ Core/Src/i2c.s: Core/Src/i2c.c.s
 Core/Src/i2c.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/i2c.c.s
 .PHONY : Core/Src/i2c.c.s
-
-Core/Src/inv_mpu.obj: Core/Src/inv_mpu.c.obj
-.PHONY : Core/Src/inv_mpu.obj
-
-# target to build an object file
-Core/Src/inv_mpu.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.obj
-.PHONY : Core/Src/inv_mpu.c.obj
-
-Core/Src/inv_mpu.i: Core/Src/inv_mpu.c.i
-.PHONY : Core/Src/inv_mpu.i
-
-# target to preprocess a source file
-Core/Src/inv_mpu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.i
-.PHONY : Core/Src/inv_mpu.c.i
-
-Core/Src/inv_mpu.s: Core/Src/inv_mpu.c.s
-.PHONY : Core/Src/inv_mpu.s
-
-# target to generate assembly for a file
-Core/Src/inv_mpu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu.c.s
-.PHONY : Core/Src/inv_mpu.c.s
-
-Core/Src/inv_mpu_dmp_motion_driver.obj: Core/Src/inv_mpu_dmp_motion_driver.c.obj
-.PHONY : Core/Src/inv_mpu_dmp_motion_driver.obj
-
-# target to build an object file
-Core/Src/inv_mpu_dmp_motion_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
-.PHONY : Core/Src/inv_mpu_dmp_motion_driver.c.obj
-
-Core/Src/inv_mpu_dmp_motion_driver.i: Core/Src/inv_mpu_dmp_motion_driver.c.i
-.PHONY : Core/Src/inv_mpu_dmp_motion_driver.i
-
-# target to preprocess a source file
-Core/Src/inv_mpu_dmp_motion_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.i
-.PHONY : Core/Src/inv_mpu_dmp_motion_driver.c.i
-
-Core/Src/inv_mpu_dmp_motion_driver.s: Core/Src/inv_mpu_dmp_motion_driver.c.s
-.PHONY : Core/Src/inv_mpu_dmp_motion_driver.s
-
-# target to generate assembly for a file
-Core/Src/inv_mpu_dmp_motion_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.s
-.PHONY : Core/Src/inv_mpu_dmp_motion_driver.c.s
 
 Core/Src/lcd.obj: Core/Src/lcd.c.obj
 .PHONY : Core/Src/lcd.obj
@@ -991,18 +991,18 @@ help:
 	@echo ... Core/Src/delay.obj
 	@echo ... Core/Src/delay.i
 	@echo ... Core/Src/delay.s
+	@echo ... Core/Src/eMPL_source/inv_mpu.obj
+	@echo ... Core/Src/eMPL_source/inv_mpu.i
+	@echo ... Core/Src/eMPL_source/inv_mpu.s
+	@echo ... Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.obj
+	@echo ... Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.i
+	@echo ... Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
 	@echo ... Core/Src/i2c.obj
 	@echo ... Core/Src/i2c.i
 	@echo ... Core/Src/i2c.s
-	@echo ... Core/Src/inv_mpu.obj
-	@echo ... Core/Src/inv_mpu.i
-	@echo ... Core/Src/inv_mpu.s
-	@echo ... Core/Src/inv_mpu_dmp_motion_driver.obj
-	@echo ... Core/Src/inv_mpu_dmp_motion_driver.i
-	@echo ... Core/Src/inv_mpu_dmp_motion_driver.s
 	@echo ... Core/Src/lcd.obj
 	@echo ... Core/Src/lcd.i
 	@echo ... Core/Src/lcd.s

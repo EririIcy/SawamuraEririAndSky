@@ -29,11 +29,6 @@
 #include "lcd.h"
 #include "delay.h"
 #include "MPU6050.h"
-#include "inv_mpu.h"
-#include "dmpmap.h"
-#include "dmpKey.h"
-#include "inv_mpu_dmp_motion_driver.h"
-
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -58,11 +53,11 @@ static int keyInterrupt1 = 0; //PG6
 static int keyInterrupt2 = 0; //PG7
 static int pwm_duty = 300;
 
-int16_t acceleration_x = 0;  //鍔狅拷?锟藉害璁＄殑涓変釜杞寸殑锟??
+int16_t acceleration_x = 0;  //三轴加速度
 int16_t acceleration_y = 0;
 int16_t acceleration_z = 0;
 
-int16_t gyro_x = 0;  //锟??铻轰华鐨勪笁涓酱鐨勶拷??
+int16_t gyro_x = 0;  //三轴角加速度
 int16_t gyro_y = 0;
 int16_t gyro_z = 0;
 
@@ -86,7 +81,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN) {
 }
 
 
-/*涓柇鍥炶皟鍑芥暟锛宼im2鐢ㄤ互鎸夐敭娑堟姈*/
+/*通过外部中断来修改占空比*/
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM2) {
         if (keyInterrupt1 == 1) {
@@ -106,11 +101,11 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     }
 }
 
-/*浼犲叆锟??锟??16浣嶆暣鏁帮紝鑻ヤ负璐熸暟琛ョ爜锛屽垯杞崲涓鸿礋鏁板師锟??*/
+/*用于将补码转化成原码*/
 int16_t getOriginalNum(int16_t num) {
-    if (num & 0x8000)//鐢ㄤ綅涓庢潵锟??娴嬫渶楂樹綅銆傜湡琛ㄧず鏄竴涓礋锟??
+    if (num & 0x8000)//判断最高位是否为1，1表示该数是一个负数
     {
-        num = ~num + 1;//杩樺師琛ョ爜
+        num = ~num + 1;//转化成原码的形式
     }
     return num;
 }

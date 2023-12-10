@@ -102,22 +102,22 @@
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/delay.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
-		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/dmpKey.h">
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/eMPL_header/dmpKey.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
-		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/dmpmap.h">
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/eMPL_header/dmpmap.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/eMPL_header/inv_mpu.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/eMPL_header/inv_mpu_dmp_motion_driver.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/gpio.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/i2c.h">
-			<Option target="SawamuraEririAndSky.elf"/>
-		</Unit>
-		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/inv_mpu.h">
-			<Option target="SawamuraEririAndSky.elf"/>
-		</Unit>
-		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/inv_mpu_dmp_motion_driver.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/lcd.h">
@@ -156,16 +156,16 @@
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/delay.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/eMPL_source/inv_mpu.c">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/eMPL_source/inv_mpu_dmp_motion_driver.c">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/gpio.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/i2c.c">
-			<Option target="SawamuraEririAndSky.elf"/>
-		</Unit>
-		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/inv_mpu.c">
-			<Option target="SawamuraEririAndSky.elf"/>
-		</Unit>
-		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/inv_mpu_dmp_motion_driver.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/lcd.c">
