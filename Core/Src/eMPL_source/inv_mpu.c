@@ -24,7 +24,7 @@
 #include <math.h>
 #include "eMPL_header/inv_mpu.h"
 #include "eMPL_header/inv_mpu_dmp_motion_driver.h"
-#include "mpu6050.h"
+#include "MPU6050.h"
 #include "delay.h"
 //#include "usart.h"
 
@@ -44,20 +44,10 @@
  * min(int a, int b)
  */
 #if defined MOTION_DRIVER_TARGET_MSP430
-//#include "msp430.h"
-//#include "msp430_i2c.h"
-//#include "msp430_clock.h"
-//#include "msp430_interrupt.h"
-
 #define i2c_write MPU_Write_Len
 #define i2c_read MPU_Read_Len
 #define HAL_Delay HAL_Delay
 #define get_ms mget_ms
-// static inline int reg_int_cb(struct int_param_s *int_param)
-//{
-//     return msp430_reg_int_cb(int_param->cb, int_param->pin, int_param->lp_exit,
-//         int_param->active_low);
-// }
 #define log_i printf //打印信息
 #define log_e printf //打印信息
 /* labs is already defined by TI's toolchain. */
@@ -784,12 +774,12 @@ int mpu_init(void)
     /* Wake up chip. */
     data[0] = 0x00;
     if (i2c_write(st.hw->addr, st.reg->pwr_mgmt_1, 1, data))
-        return -1;
+        return -2;
 
 #if defined MPU6050
     /* Check product revision. */
     if (i2c_read(st.hw->addr, st.reg->accel_offs, 6, data))
-        return -1;
+        return -3;
     rev = ((data[5] & 0x01) << 2) | ((data[3] & 0x01) << 1) |
           (data[1] & 0x01);
 
@@ -810,13 +800,13 @@ int mpu_init(void)
     else
     {
         if (i2c_read(st.hw->addr, st.reg->prod_id, 1, data))
-            return -1;
+            return -4;
         rev = data[0] & 0x0F;
         if (!rev)
         {
             log_e("Product ID read as 0 indicates device is either "
                   "incompatible or an MPU3050.\n");
-            return -1;
+            return -5;
         }
         else if (rev == 4)
         {

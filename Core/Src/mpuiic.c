@@ -1,5 +1,4 @@
 #include "mpuiic.h"
-#include "delay.h"
 #include "MPU6050.h"
 
 #if defined(MPU6050_Software_I2C)

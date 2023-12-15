@@ -1,42 +1,40 @@
-//
 #include "i2c.h"
 #include "lcd.h"
+#include "MPU6050.h"
+#include "delay.h"
+#include <math.h>
 
-#define MPU6050_ADDR 0xD0 // 0x68 << 1
-#define MPU6050_PWR_MGMT_1 0x6B // ç”µæºç®¡ç†å¯„å­˜å™¨ 1
+#define MPU6050_ADDR 0xD0 // 0x68 << 1, MPU6050µÄµØÖ·ÊÇ0x68£¬µ«ÊÇÓÃHAL_I2C½øĞĞ·ÃÎÊÊ±£¬µØÖ·Òª×óÒÆÒ»Î»¡£
 
-uint8_t restart = 0x80; //å‡†å¤‡å‘é€å¤ä½å‘½ä»¤çš„æ•°å€¼
-
-
-/* åˆå§‹åŒ– I2C å’Œ MPU6050*/
+/* ³õÊ¼»¯ I2C ºÍ MPU6050*/
 void MPU6050_Init(I2C_HandleTypeDef *I2cHandle) {
     uint8_t data;
-    // å”¤é†’ MPU6050
+    // »½ĞÑ MPU6050
     data = 0;
     HAL_I2C_Mem_Write(I2cHandle, MPU6050_ADDR, 0x6B, 1, &data, 1, 1000);
 
-    // è®¾ç½®é‡‡æ ·ç‡
+    // ÉèÖÃ²ÉÑùÂÊ
     data = 0x07;
     HAL_I2C_Mem_Write(I2cHandle, MPU6050_ADDR, 0x19, 1, &data, 1, 1000);
 
-    // è®¾ç½®åŠ é€Ÿåº¦ä¼ æ„Ÿå™¨é‡ç¨‹
+    // ÉèÖÃ¼ÓËÙ¶È´«¸ĞÆ÷Á¿³Ì
     data = 0x00; // +/- 2g
     HAL_I2C_Mem_Write(I2cHandle, MPU6050_ADDR, 0x1C, 1, &data, 1, 1000);
 
-    // è®¾ç½®é™€èºä»ªé‡ç¨‹
-    data = 0x00; // +/- 250åº¦/ç§’
+    // ÉèÖÃÍÓÂİÒÇÁ¿³Ì
+    data = 0x00; // +/- 250¶È/Ãë
     HAL_I2C_Mem_Write(I2cHandle, MPU6050_ADDR, 0x1B, 1, &data, 1, 1000);
 }
 
 
-/* è¯»å– MPU6050 æ•°æ®*/
+/* ¶ÁÈ¡ MPU6050 ¼ÓËÙ¶ÈÊı¾İ*/
 void MPU6050_ReadAccel(I2C_HandleTypeDef *I2cHandle, int16_t *Accel_X, int16_t *Accel_Y, int16_t *Accel_Z) {
     uint8_t Rec_Data[6];
 
-    // è¯»å–åŠ é€Ÿåº¦è®¡çš„ X, Y, Z è½´çš„å€¼
+    // ¶ÁÈ¡¼ÓËÙ¶È¼ÆµÄ X, Y, Z ÖáµÄÖµ
     HAL_I2C_Mem_Read(I2cHandle, MPU6050_ADDR, 0x3B, 1, Rec_Data, 6, 1000);
 
-    *Accel_X = (int16_t) (Rec_Data[0] << 8 | Rec_Data[1]);  //å‘é€çš„æ˜¯ä¸¤ä¸ª8ä½çš„æ•°æ®ï¼Œé«˜ä½å·¦ç§»8ä½ï¼Œä½ä½ä¸åŠ¨ï¼Œç„¶åä¸¤ä¸ªæ•°æ®ç›¸åŠ å³å¯å¾—åˆ°å®Œæ•´çš„16ä½æ•°æ®
+    *Accel_X = (int16_t) (Rec_Data[0] << 8 | Rec_Data[1]);  //·¢ËÍµÄÊÇÁ½¸ö8Î»µÄÊı¾İ£¬¸ßÎ»×óÒÆ8Î»£¬µÍÎ»²»¶¯£¬È»ºóÁ½¸öÊı¾İÏà¼Ó¼´¿ÉµÃµ½ÍêÕûµÄ16Î»Êı¾İ
     *Accel_Y = (int16_t) (Rec_Data[2] << 8 | Rec_Data[3]);
     *Accel_Z = (int16_t) (Rec_Data[4] << 8 | Rec_Data[5]);
 }
@@ -45,16 +43,16 @@ void MPU6050_ReadAccel(I2C_HandleTypeDef *I2cHandle, int16_t *Accel_X, int16_t *
 void MPU6050_ReadGyro(I2C_HandleTypeDef *I2cHandle, int16_t *Gyro_X, int16_t *Gyro_Y, int16_t *Gyro_Z) {
     uint8_t Rec_Data[6];
 
-    // è¯»å–é™€èºä»ªçš„ X, Y, Z è½´çš„å€¼
+    // ¶ÁÈ¡ÍÓÂİÒÇµÄ X, Y, Z ÖáµÄÖµ
     HAL_I2C_Mem_Read(I2cHandle, MPU6050_ADDR, 0x43, 1, Rec_Data, 6, 1000);
 
-    // å°†æ¥æ”¶åˆ°çš„æ•°æ®ç»„åˆæˆå®é™…çš„é™€èºä»ªè¯»æ•°
+    // ½«½ÓÊÕµ½µÄÊı¾İ×éºÏ³ÉÊµ¼ÊµÄÍÓÂİÒÇ¶ÁÊı
     *Gyro_X = (int16_t) (Rec_Data[0] << 8 | Rec_Data[1]);
     *Gyro_Y = (int16_t) (Rec_Data[2] << 8 | Rec_Data[3]);
     *Gyro_Z = (int16_t) (Rec_Data[4] << 8 | Rec_Data[5]);
 }
 
-/*æ‰“å°æ•°æ®*/
+/*´òÓ¡Êı¾İ*/
 void MPU6050_LCD_PrintAccel(int16_t acceleration_x, int16_t acceleration_y, int16_t acceleration_z) {
     LCD_ShowString(50, 70, "x:", RED, WHITE, 16, 0);
     LCD_ShowString(50, 90, "y:", RED, WHITE, 16, 0);
@@ -62,28 +60,28 @@ void MPU6050_LCD_PrintAccel(int16_t acceleration_x, int16_t acceleration_y, int1
     LCD_ShowString(140, 70, "m/s^2", RED, WHITE, 16, 0);
     LCD_ShowString(140, 90, "m/s^2", RED, WHITE, 16, 0);
     LCD_ShowString(140, 110, "m/s^2", RED, WHITE, 16, 0);
-    if (acceleration_x & 0x8000)//ç”¨ä½ä¸æ¥æ£€æµ‹æœ€é«˜ä½ã€‚çœŸè¡¨ç¤ºæ˜¯ä¸€ä¸ªè´Ÿæ•°
+    if (acceleration_x & 0x8000)//ÓÃÎ»ÓëÀ´¼ì²â×î¸ßÎ»¡£Õæ±íÊ¾ÊÇÒ»¸ö¸ºÊı
     {
         LCD_ShowChar(65, 70, '-', RED, WHITE, 16, 1);
-        acceleration_x = ~acceleration_x + 1;//è¿˜åŸè¡¥ç 
+        acceleration_x = ~acceleration_x + 1;//»¹Ô­²¹Âë
         LCD_ShowFloatNum1(80, 70, (float) acceleration_x / 65535.0 * 4 * 9.8, 4, RED, WHITE, 16);
     } else {
         LCD_ShowChar(65, 70, '-', WHITE, WHITE, 16, 1);
         LCD_ShowFloatNum1(80, 70, (float) acceleration_x / 65535.0 * 4 * 9.8, 4, RED, WHITE, 16);
     }
-    if (acceleration_y & 0x8000)//ç”¨ä½ä¸æ¥æ£€æµ‹æœ€é«˜ä½ã€‚çœŸè¡¨ç¤ºæ˜¯ä¸€ä¸ªè´Ÿæ•°
+    if (acceleration_y & 0x8000)//ÓÃÎ»ÓëÀ´¼ì²â×î¸ßÎ»¡£Õæ±íÊ¾ÊÇÒ»¸ö¸ºÊı
     {
         LCD_ShowChar(65, 90, '-', RED, WHITE, 16, 1);
-        acceleration_y = ~acceleration_y + 1;//è¿˜åŸè¡¥ç 
+        acceleration_y = ~acceleration_y + 1;//»¹Ô­²¹Âë
         LCD_ShowFloatNum1(80, 90, (float) acceleration_y / 65535.0 * 4 * 9.8, 4, RED, WHITE, 16);
     } else {
         LCD_ShowChar(65, 90, '-', WHITE, WHITE, 16, 1);
         LCD_ShowFloatNum1(80, 90, (float) acceleration_y / 65535.0 * 4 * 9.8, 4, RED, WHITE, 16);
     }
-    if (acceleration_z & 0x8000)//ç”¨ä½ä¸æ¥æ£€æµ‹æœ€é«˜ä½ã€‚çœŸè¡¨ç¤ºæ˜¯ä¸€ä¸ªè´Ÿæ•°
+    if (acceleration_z & 0x8000)//ÓÃÎ»ÓëÀ´¼ì²â×î¸ßÎ»¡£Õæ±íÊ¾ÊÇÒ»¸ö¸ºÊı
     {
         LCD_ShowChar(65, 110, '-', RED, WHITE, 16, 1);
-        acceleration_z = ~acceleration_z + 1;//è¿˜åŸè¡¥ç 
+        acceleration_z = ~acceleration_z + 1;//»¹Ô­²¹Âë
         LCD_ShowFloatNum1(80, 110, (float) acceleration_z / 65535.0 * 4 * 9.8, 4, RED, WHITE, 16);
     } else {
         LCD_ShowChar(65, 70, '-', WHITE, WHITE, 16, 1);
@@ -93,40 +91,160 @@ void MPU6050_LCD_PrintAccel(int16_t acceleration_x, int16_t acceleration_y, int1
 }
 
 void MPU6050_LCD_PrintGyro(int16_t gyro_x, int16_t gyro_y, int16_t gyro_z) {
+    //´«ÈëÔ­Ê¼Êı¾İ¼´¿É¡£º¯Êı°üº¬ÁË½«²¹Âë×ª»¯³ÉÔ­ÂëµÄ²¿·Ö£¬ÏÔÊ¾¸ºÊıÃ»ÓĞÎÊÌâ¡£
+    //it's ok to input raw date since this function can convert the complement to the source code
     LCD_ShowString(50, 130, "x:", RED, WHITE, 16, 0);
     LCD_ShowString(50, 150, "y:", RED, WHITE, 16, 0);
     LCD_ShowString(50, 170, "z:", RED, WHITE, 16, 0);
-    LCD_ShowString(140, 130, "Â°/s", RED, WHITE, 16, 0);
-    LCD_ShowString(140, 150, "Â°/s", RED, WHITE, 16, 0);
-    LCD_ShowString(140, 170, "Â°/s", RED, WHITE, 16, 0);
-    if (gyro_x & 0x8000)//ç”¨ä½ä¸æ¥æ£€æµ‹æœ€é«˜ä½ã€‚çœŸè¡¨ç¤ºæ˜¯ä¸€ä¸ªè´Ÿæ•°
+    LCD_ShowString(140, 130, "¡ã/s", RED, WHITE, 16, 0);
+    LCD_ShowString(140, 150, "¡ã/s", RED, WHITE, 16, 0);
+    LCD_ShowString(140, 170, "¡ã/s", RED, WHITE, 16, 0);
+    if (gyro_x & 0x8000)//ÓÃÎ»ÓëÀ´¼ì²â×î¸ßÎ»¡£Õæ±íÊ¾ÊÇÒ»¸ö¸ºÊı
     {
         LCD_ShowChar(65, 130, '-', RED, WHITE, 16, 1);
-        gyro_x = ~gyro_x + 1;//è¿˜åŸè¡¥ç 
+        gyro_x = ~gyro_x + 1;//»¹Ô­²¹Âë
         LCD_ShowFloatNum1(80, 130, (float) gyro_x / 65535.0 * 250, 4, RED, WHITE, 16);
     } else {
         LCD_ShowChar(65, 130, '-', WHITE, WHITE, 16, 1);
         LCD_ShowFloatNum1(80, 130, (float) gyro_x / 65535.0 * 250, 4, RED, WHITE, 16);
     }
-    if (gyro_y & 0x8000)//ç”¨ä½ä¸æ¥æ£€æµ‹æœ€é«˜ä½ã€‚çœŸè¡¨ç¤ºæ˜¯ä¸€ä¸ªè´Ÿæ•°
+    if (gyro_y & 0x8000)//ÓÃÎ»ÓëÀ´¼ì²â×î¸ßÎ»¡£Õæ±íÊ¾ÊÇÒ»¸ö¸ºÊı
     {
         LCD_ShowChar(65, 150, '-', RED, WHITE, 16, 1);
-        gyro_y = ~gyro_y + 1;//è¿˜åŸè¡¥ç 
+        gyro_y = ~gyro_y + 1;//»¹Ô­²¹Âë
         LCD_ShowFloatNum1(80, 150, (float) gyro_y / 65535.0 * 250, 4, RED, WHITE, 16);
     } else {
         LCD_ShowChar(65, 150, '-', WHITE, WHITE, 16, 1);
         LCD_ShowFloatNum1(80, 150, (float) gyro_y / 65535.0 * 250, 4, RED, WHITE, 16);
     }
-    if (gyro_z & 0x8000)//ç”¨ä½ä¸æ¥æ£€æµ‹æœ€é«˜ä½ã€‚çœŸè¡¨ç¤ºæ˜¯ä¸€ä¸ªè´Ÿæ•°
+    if (gyro_z & 0x8000)//ÓÃÎ»ÓëÀ´¼ì²â×î¸ßÎ»¡£Õæ±íÊ¾ÊÇÒ»¸ö¸ºÊı
     {
         LCD_ShowChar(65, 170, '-', RED, WHITE, 16, 1);
-        gyro_z = ~gyro_z + 1;//è¿˜åŸè¡¥ç 
+        gyro_z = ~gyro_z + 1;//»¹Ô­²¹Âë
         LCD_ShowFloatNum1(80, 170, (float) gyro_z / 65535.0 * 250, 4, RED, WHITE, 16);
     } else {
         LCD_ShowChar(65, 170, '-', WHITE, WHITE, 16, 1);
         LCD_ShowFloatNum1(80, 170, (float) gyro_z / 65535.0 * 250, 4, RED, WHITE, 16);
     }
 }
+/*
+ *     ½«½Ç¶ÈĞÅÏ¢´òÓ¡ÔÚLCDÆÁÄ»ÉÏ¡£
+ *     ´«ÈëÔ­Ê¼Êı¾İ¼´¿É¡£º¯Êı°üº¬ÁË½«²¹Âë×ª»¯³ÉÔ­ÂëµÄ²¿·Ö£¬ÏÔÊ¾¸ºÊıÃ»ÓĞÎÊÌâ¡£
+ *     it's ok to input raw date since this function can convert the complement to the source code
+ * */
+void MPU6050_LCD_PrintAngle(float pitch, float roll, float yaw) {
 
-// Created by Chen on 2023/12/7.
-//
+    uint16_t x_start = 50;//Êä³öµÄxÆğÊ¼Î»ÖÃ
+    uint16_t y_start = 70;
+    uint16_t y_step = 20;
+    uint32_t font_color = RED;
+    uint32_t background_color = WHITE;
+    uint32_t pitch_minus_color = background_color;
+    uint32_t roll_minus_color = background_color;
+    uint32_t yaw_minus_color = background_color;
+    //the pitch/roll/yaw should be a positive number, otherwise it cannot be shown on the screen successfully
+    if (pitch < 0) {
+        pitch = fabs(pitch);
+        pitch_minus_color = font_color;
+    }
+    if (roll < 0) {
+        roll = fabs(roll);
+        roll_minus_color = font_color;
+    }
+    if (yaw < 0) {
+        yaw = fabs(yaw);
+        yaw_minus_color = font_color;
+    }
+    LCD_ShowFloatNum1(x_start + 16, y_start + 1 * y_step, pitch, 4, font_color, background_color, 16);
+    LCD_ShowFloatNum1(x_start + 16, y_start + 2 * y_step, roll, 4, font_color, background_color, 16);
+    LCD_ShowFloatNum1(x_start + 16, y_start + 3 * y_step, yaw, 4, font_color, background_color, 16);
+    LCD_ShowChar(x_start, y_start + 1 * y_step, '-', pitch_minus_color, background_color, 16, 1);
+    LCD_ShowChar(x_start, y_start + 2 * y_step, '-', roll_minus_color, background_color, 16, 1);
+    LCD_ShowChar(x_start, y_start + 3 * y_step, '-', yaw_minus_color, background_color, 16, 1);
+}
+//¶¨Òå¸÷±äÁ¿
+
+#define RtA         57.295779f    //»¡¶È->½Ç¶È
+#define AtR            0.0174533f    //½Ç¶È->»¡¶È
+#define Acc_G         0.0011963f
+#define Gyro_G         0.0610351f
+#define Gyro_Gr        0.0010653f
+
+#define Kp 18.0f
+#define Ki 0.008f
+#define halfT 0.008f
+float q0 = 1, q1 = 0, q2 = 0, q3 = 0;
+float exInt = 0, eyInt = 0, ezInt = 0;
+
+/*
+ *  Í¨¹ıÁùÖá´«¸ĞÆ÷µÄÊı¾İ¼ÆËãµÃµ½½Ç¶È
+ *     */
+void IMU_Update(short gyrox, short gyroy, short gyroz, short accx, short accy, short accz, float *Angle) {
+
+    float ax = accx, ay = accy, az = accz;
+    float gx = gyrox, gy = gyroy, gz = gyroz;
+    float norm;
+    float vx, vy, vz;
+    float ex, ey, ez;
+    float q0q0 = q0 * q0;
+    float q0q1 = q0 * q1;
+    float q0q2 = q0 * q2;
+    float q1q1 = q1 * q1;
+    float q1q3 = q1 * q3;
+    float q2q2 = q2 * q2;
+    float q2q3 = q2 * q3;
+    float q3q3 = q3 * q3;
+    if (ax * ay * az == 0)//´ËÊ±ÈÎÒâ·½Ïò½Ç¼ÓËÙ¶ÈÎª0
+        return;
+    gx *= Gyro_Gr;
+    gy *= Gyro_Gr;
+    gz *= Gyro_Gr;
+
+    //¶ÔËÙ¶ÈÖµ¹éÒ»»¯
+
+    norm = sqrt(ax * ax + ay * ay + az * az);
+    ax = ax / norm;
+    ay = ay / norm;
+    az = az / norm;
+
+    // ÌáÈ¡×ËÌ¬¾ØÕóµÄÖØÁ¦·ÖÁ¿
+    vx = 2 * (q1q3 - q0q2);
+    vy = 2 * (q0q1 + q2q3);
+    vz = q0q0 - q1q1 - q2q2 + q3q3;
+
+    // µÃµ½Îó²îÏòÁ¿£¬²¢½øĞĞ»ı·Ö¶øÏû³ı
+    ex = (ay * vz - az * vy);
+    ey = (az * vx - ax * vz);
+    ez = (ax * vy - ay * vx);
+
+    exInt = exInt + ex * Ki;
+    eyInt = eyInt + ey * Ki;
+    ezInt = ezInt + ez * Ki;
+
+    // »¥²¹ÂË²¨£¬½«Îó²îÊäÈëPid¿ØÖÆÆ÷Óë±¾´Î×ËÌ¬¸üĞÂÖĞÍÓÂİÒÇ²âµÃµÄ½ÇËÙ¶ÈÏà¼Ó£¬µÃµ½Ò»¸öĞŞÕıµÄ½ÇËÙ¶ÈÖµ£¬»ñµÃµÄĞŞÕıµÄ½ÇËÙ¶ÈÖµÈ¥¸üĞÂËÄÔªËØ£¬´Ó¶ø»ñµÃ×¼È·µÄ×ËÌ¬½ÇĞÅÏ¢¡£
+    gx = gx + Kp * ex + exInt;
+    gy = gy + Kp * ey + eyInt;
+    gz = gz + Kp * ez + ezInt;
+
+    // ½âËÄÔªÊı
+    q0 = q0 + (-q1 * gx - q2 * gy - q3 * gz) * halfT;
+    q1 = q1 + (q0 * gx + q2 * gz - q3 * gy) * halfT;
+    q2 = q2 + (q0 * gy - q1 * gz + q3 * gx) * halfT;
+    q3 = q3 + (q0 * gz + q1 * gy - q2 * gx) * halfT;
+
+    // ËÄÔªÊı¹éÒ»»¯
+    norm = sqrt(q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);
+
+    q0 = q0 / norm;
+    q1 = q1 / norm;
+    q2 = q2 / norm;
+    q3 = q3 / norm;
+
+    //Çó½â×ËÌ¬½Ç£¨Å·À­½Ç£©
+    Angle[0] = asin(-2 * q1 * q3 + 2 * q0 * q2) * RtA; //pitch
+    Angle[1] = atan2(2 * q2 * q3 + 2 * q0 * q1, -2 * q1 * q1 - 2 * q2 * q2 + 1) * RtA;      //roll
+    Angle[2] = atan2(2 * q1 * q2 + 2 * q0 * q3, -2 * q2 * q2 - 2 * q3 * q3 + 1) * RtA;             // yaw
+}
+/*¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+ * °æÈ¨ÉùÃ÷£º±¾ÎÄÎªCSDN²©Ö÷¡¸ÖÂÁ¦ÓÚ³ÉÎª¹âÍ·¡¹µÄÔ­´´ÎÄÕÂ£¬×ñÑ­CC 4.0 BY-SA°æÈ¨Ğ­Òé£¬×ªÔØÇë¸½ÉÏÔ­ÎÄ³ö´¦Á´½Ó¼°±¾ÉùÃ÷¡£
+Ô­ÎÄÁ´½Ó£ºhttps://blog.csdn.net/m0_57763261/article/details/123085723*/

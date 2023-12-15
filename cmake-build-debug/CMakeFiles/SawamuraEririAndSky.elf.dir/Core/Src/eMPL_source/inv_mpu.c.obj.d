@@ -73,10 +73,10 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu.c.obj: \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/eMPL_header/inv_mpu_dmp_motion_driver.h \
- D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/mpu6050.h \
+ D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/MPU6050.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/mpuiic.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/main.h \
- D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/mpu6050.h \
+ D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/MPU6050.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/eMPL_header/inv_mpu.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/eMPL_header/inv_mpu_dmp_motion_driver.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/delay.h
