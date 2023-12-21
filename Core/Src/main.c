@@ -29,7 +29,7 @@
 #include "lcd.h"
 #include "delay.h"
 #include "MPU6050.h"
-
+#include "BMP280.h"
 #include <math.h>
 /* USER CODE END Includes */
 
@@ -65,6 +65,8 @@ int16_t gyro_z = 0;
 
 float pitch, roll, yaw;
 float Angle[3] = {0};//最终角度,IMU_Update中调用。
+
+float pressure;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -169,6 +171,7 @@ int main(void) {
     LCD_Init();
 
     MPU6050_Init(&hi2c2);
+    Bmp_Init();
     //MPU_Init();
     LCD_Fill(0, 0, LCD_H, LCD_W, WHITE);
     LCD_ShowString(0, 55, "pwm_duty:", RED, WHITE, 16, 0);
@@ -183,16 +186,16 @@ int main(void) {
         MPU6050_ReadAccel(&hi2c2, &acceleration_x, &acceleration_y, &acceleration_z);
         MPU6050_ReadGyro(&hi2c2, &gyro_x, &gyro_y, &gyro_z);
         IMU_Update(gyro_x, gyro_y, gyro_z, acceleration_x, acceleration_y, acceleration_z, &Angle[0]);
-
+        pressure=BMP280_Get_Pressure();
         pitch = Angle[0];
         roll = Angle[1];
         yaw = Angle[2];
         LCD_ShowFloatNum1(80, 55, pwm_duty, 5, RED, WHITE, 16);
+        LCD_ShowFloatNum1(80, 30, pressure, 16, RED, WHITE, 16);
         HAL_Delay(50);
 //        MPU6050_LCD_PrintAccel(acceleration_x, acceleration_y, acceleration_z);
 //        MPU6050_LCD_PrintGyro(gyro_x, gyro_y, gyro_z);
         MPU6050_LCD_PrintAngle(pitch, roll, yaw);
-
     }
 
     /* USER CODE END 3 */

@@ -128,6 +128,30 @@ SawamuraEririAndSky.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/build
 .PHONY : SawamuraEririAndSky.elf/fast
 
+Core/Src/BMP280.obj: Core/Src/BMP280.c.obj
+.PHONY : Core/Src/BMP280.obj
+
+# target to build an object file
+Core/Src/BMP280.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/BMP280.c.obj
+.PHONY : Core/Src/BMP280.c.obj
+
+Core/Src/BMP280.i: Core/Src/BMP280.c.i
+.PHONY : Core/Src/BMP280.i
+
+# target to preprocess a source file
+Core/Src/BMP280.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/BMP280.c.i
+.PHONY : Core/Src/BMP280.c.i
+
+Core/Src/BMP280.s: Core/Src/BMP280.c.s
+.PHONY : Core/Src/BMP280.s
+
+# target to generate assembly for a file
+Core/Src/BMP280.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/BMP280.c.s
+.PHONY : Core/Src/BMP280.c.s
+
 Core/Src/MPU6050.obj: Core/Src/MPU6050.c.obj
 .PHONY : Core/Src/MPU6050.obj
 
@@ -985,6 +1009,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SawamuraEririAndSky.elf
+	@echo ... Core/Src/BMP280.obj
+	@echo ... Core/Src/BMP280.i
+	@echo ... Core/Src/BMP280.s
 	@echo ... Core/Src/MPU6050.obj
 	@echo ... Core/Src/MPU6050.i
 	@echo ... Core/Src/MPU6050.s

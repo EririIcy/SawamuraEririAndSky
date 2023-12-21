@@ -96,6 +96,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/BMP280.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/MPU6050.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
@@ -148,6 +151,9 @@
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/tim.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/BMP280.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/MPU6050.c">
