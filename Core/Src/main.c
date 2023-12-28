@@ -66,7 +66,7 @@ int16_t gyro_z = 0;
 float pitch, roll, yaw;
 float Angle[3] = {0};//最终角度,IMU_Update中调用。
 
-float pressure;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -179,6 +179,7 @@ int main(void) {
 
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
+    double pressure;
     while (1) {
         /* USER CODE END WHILE */
 
@@ -191,7 +192,7 @@ int main(void) {
         roll = Angle[1];
         yaw = Angle[2];
         LCD_ShowFloatNum1(80, 55, pwm_duty, 5, RED, WHITE, 16);
-        LCD_ShowFloatNum1(80, 30, pressure, 16, RED, WHITE, 16);
+        LCD_ShowFloatNum1(80, 30, pressure, 8, RED, WHITE, 16);
         HAL_Delay(50);
 //        MPU6050_LCD_PrintAccel(acceleration_x, acceleration_y, acceleration_z);
 //        MPU6050_LCD_PrintGyro(gyro_x, gyro_y, gyro_z);

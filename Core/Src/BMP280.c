@@ -228,16 +228,20 @@ double bmp280_compensate_P_double(BMP280_S32_t adc_P) {
 
 #endif
 
+double pressure[5];
+int i=0;
 double BMP280_Get_Pressure(void) {
     uint8_t XLsb, Lsb, Msb;
     long signed Bit32;
-    double pressure;
     XLsb = BMP280_Read_Byte(BMP280_PRESSURE_XLSB_REG);
     Lsb = BMP280_Read_Byte(BMP280_PRESSURE_LSB_REG);
     Msb = BMP280_Read_Byte(BMP280_PRESSURE_MSB_REG);
     Bit32 = ((long) (Msb << 12)) | ((long) (Lsb << 4)) | (XLsb >> 4);    //寄存器的值,组成一个浮点数
-    pressure = bmp280_compensate_P_double(Bit32);
-    return pressure;
+    pressure[i] = bmp280_compensate_P_double(Bit32);
+    i++;
+    i=i%5;
+    double pressure_output=(pressure[1]+pressure[2]+pressure[3]+pressure[4]+pressure[0])/5.0;
+    return pressure_output;
 }
 
 //温度值-℃

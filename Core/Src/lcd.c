@@ -432,7 +432,7 @@ void LCD_ShowIntNum(uint16_t x,uint16_t y,uint16_t num,uint8_t len,uint16_t fc,u
 void LCD_ShowFloatNum1(uint16_t x,uint16_t y,float num,uint8_t len,uint16_t fc,uint16_t bc,uint8_t sizey)
 {
     uint8_t t,temp,sizex;
-    uint16_t num1;
+    uint32_t num1;
     sizex=sizey/2;
     num1=num*100;
     for(t=0;t<len;t++)
