@@ -56,13 +56,13 @@ void Bmp_Init(void) {
     BMP280_Write_Byte(BMP280_RESET_REG, BMP280_RESET_VALUE);    //往复位寄存器写入给定值
 
     BMP_OVERSAMPLE_MODE BMP_OVERSAMPLE_MODEStructure;
-    BMP_OVERSAMPLE_MODEStructure.P_Osample = BMP280_P_MODE_3;
+    BMP_OVERSAMPLE_MODEStructure.P_Osample = BMP280_P_MODE_4;
     BMP_OVERSAMPLE_MODEStructure.T_Osample = BMP280_T_MODE_1;
     BMP_OVERSAMPLE_MODEStructure.WORKMODE = BMP280_NORMAL_MODE;
     BMP280_Set_TemOversamp(&BMP_OVERSAMPLE_MODEStructure);
 
     BMP_CONFIG BMP_CONFIGStructure;
-    BMP_CONFIGStructure.T_SB = BMP280_T_SB1;
+    BMP_CONFIGStructure.T_SB = BMP280_T_SB2;
     BMP_CONFIGStructure.FILTER_COEFFICIENT = BMP280_FILTER_MODE_4;
     BMP_CONFIGStructure.SPI_EN = DISABLE;
 
@@ -207,41 +207,40 @@ double bmp280_compensate_T_double(BMP280_S32_t adc_T) {
 }
 
 // Returns pressure in Pa as double. Output value of “96386.2” equals 96386.2 Pa = 963.862 hPa
-double bmp280_compensate_P_double(BMP280_S32_t adc_P) {
+double bmp280_compensate_P_double(BMP280_S32_t adc_P)
+{
     double var1, var2, p;
-    var1 = ((double) t_fine / 2.0) - 64000.0;
-    var2 = var1 * var1 * ((double) dig_P6) / 32768.0;
-    var2 = var2 + var1 * ((double) dig_P5) * 2.0;
-    var2 = (var2 / 4.0) + (((double) dig_P4) * 65536.0);
-    var1 = (((double) dig_P3) * var1 * var1 / 524288.0 + ((double) dig_P2) * var1) / 524288.0;
-    var1 = (1.0 + var1 / 32768.0) * ((double) dig_P1);
-    if (var1 == 0.0) {
+    var1 = ((double)t_fine/2.0) - 64000.0;
+    var2 = var1 * var1 * ((double)dig_P6) / 32768.0;
+    var2 = var2 + var1 * ((double)dig_P5) * 2.0;
+    var2 = (var2/4.0)+(((double)dig_P4) * 65536.0);
+    var1 = (((double)dig_P3) * var1 * var1 / 524288.0 + ((double)dig_P2) * var1) / 524288.0;
+    var1 = (1.0 + var1 / 32768.0)*((double)dig_P1);
+    if (var1 == 0.0)
+    {
         return 0; // avoid exception caused by division by zero
     }
-    p = 1048576.0 - (double) adc_P;
+    p = 1048576.0 - (double)adc_P;
     p = (p - (var2 / 4096.0)) * 6250.0 / var1;
-    var1 = ((double) dig_P9) * p * p / 2147483648.0;
-    var2 = p * ((double) dig_P8) / 32768.0;
-    p = p + (var1 + var2 + ((double) dig_P7)) / 16.0;
+    var1 = ((double)dig_P9) * p * p / 2147483648.0;
+    var2 = p * ((double)dig_P8) / 32768.0;
+    p = p + (var1 + var2 + ((double)dig_P7)) / 16.0;
     return p;
 }
 
 #endif
 
-double pressure[5];
-int i=0;
+
 double BMP280_Get_Pressure(void) {
     uint8_t XLsb, Lsb, Msb;
+    double  pressure;
     long signed Bit32;
     XLsb = BMP280_Read_Byte(BMP280_PRESSURE_XLSB_REG);
     Lsb = BMP280_Read_Byte(BMP280_PRESSURE_LSB_REG);
     Msb = BMP280_Read_Byte(BMP280_PRESSURE_MSB_REG);
     Bit32 = ((long) (Msb << 12)) | ((long) (Lsb << 4)) | (XLsb >> 4);    //寄存器的值,组成一个浮点数
-    pressure[i] = bmp280_compensate_P_double(Bit32);
-    i++;
-    i=i%5;
-    double pressure_output=(pressure[1]+pressure[2]+pressure[3]+pressure[4]+pressure[0])/5.0;
-    return pressure_output;
+    pressure = bmp280_compensate_P_double(Bit32);
+    return pressure;
 }
 
 //温度值-℃

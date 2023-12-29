@@ -39,10 +39,12 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj: \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/i2c.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/main.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/spi.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/tim.h \
+ D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/usart.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/gpio.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/lcd_init.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/lcd.h \
@@ -63,4 +65,8 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj: \
  d:\gnu_tools_arm_embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_types.h \
  d:\gnu_tools_arm_embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\lock.h \
  d:\gnu_tools_arm_embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\cdefs.h \
- d:\gnu_tools_arm_embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h
+ d:\gnu_tools_arm_embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_ansi.h \
+ d:\gnu_tools_arm_embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h \
+ d:\gnu_tools_arm_embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_locale.h \
+ d:\gnu_tools_arm_embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\strings.h \
+ d:\gnu_tools_arm_embedded\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h

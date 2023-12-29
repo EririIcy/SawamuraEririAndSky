@@ -72,6 +72,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/eMPL_source/inv_mpu_dmp_motion_d
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/eMPL_header/inv_mpu_dmp_motion_driver.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/eMPL_header/dmpKey.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/eMPL_header/dmpmap.h \

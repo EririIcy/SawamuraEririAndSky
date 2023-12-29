@@ -320,9 +320,23 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.s"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Src\tim.c -o CMakeFiles\SawamuraEririAndSky.elf.dir\Core\Src\tim.c.s
 
+CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
+CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/usart.c
+CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.obj"
+	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Core\Src\usart.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Src\usart.c
+
+CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.i"
+	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Src\usart.c > CMakeFiles\SawamuraEririAndSky.elf.dir\Core\Src\usart.c.i
+
+CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.s"
+	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Src\usart.c -o CMakeFiles\SawamuraEririAndSky.elf.dir\Core\Src\usart.c.s
+
 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Startup/startup_stm32f429igtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building ASM object CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\SawamuraEririAndSky.elf.dir\Core\Startup\startup_stm32f429igtx.s.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Startup\startup_stm32f429igtx.s
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.s: c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -448,7 +462,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -462,7 +476,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
@@ -476,7 +490,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
@@ -490,7 +504,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -504,7 +518,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -518,7 +532,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -532,7 +546,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -546,7 +560,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
@@ -560,7 +574,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -574,7 +588,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -584,6 +598,20 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4x
 CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
 	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+
+CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/flags.make
+CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/SawamuraEririAndSky.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+
+CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
+	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+
+CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
+	D:\GNU_Tools_ARM_Embedded\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\SawamuraEririAndSky.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
 # Object files for target SawamuraEririAndSky.elf
 SawamuraEririAndSky_elf_OBJECTS = \
@@ -605,6 +633,7 @@ SawamuraEririAndSky_elf_OBJECTS = \
 "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj" \
+"CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj" \
 "CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" \
@@ -623,7 +652,8 @@ SawamuraEririAndSky_elf_OBJECTS = \
 "CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" \
 "CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
-"CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+"CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
+"CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 
 # External object files for target SawamuraEririAndSky.elf
 SawamuraEririAndSky_elf_EXTERNAL_OBJECTS =
@@ -646,6 +676,7 @@ SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/syscall
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/sysmem.c.obj
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/system_stm32f4xx.c.obj
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/tim.c.obj
+SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/usart.c.obj
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
@@ -665,9 +696,10 @@ SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4x
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/build.make
 SawamuraEririAndSky.elf: CMakeFiles/SawamuraEririAndSky.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking C executable SawamuraEririAndSky.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C executable SawamuraEririAndSky.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SawamuraEririAndSky.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/cmake-build-debug/SawamuraEririAndSky.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/cmake-build-debug/SawamuraEririAndSky.bin"

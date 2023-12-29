@@ -153,6 +153,9 @@
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/tim.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/usart.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/BMP280.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
@@ -205,6 +208,9 @@
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/tim.c">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/usart.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Startup/startup_stm32f429igtx.s">
@@ -378,6 +384,9 @@
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
@@ -409,6 +418,9 @@
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
@@ -469,6 +481,9 @@
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/STM32F429IGTX_FLASH.ld">

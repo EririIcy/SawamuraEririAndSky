@@ -38,6 +38,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/BMP280.c.obj: \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/I2C.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/main.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/BMP280.h

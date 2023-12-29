@@ -40,6 +40,7 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj: \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/lcd.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/MPU6050.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/mpuiic.h \
