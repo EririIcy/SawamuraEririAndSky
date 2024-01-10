@@ -152,6 +152,78 @@ Core/Src/BMP280.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/BMP280.c.s
 .PHONY : Core/Src/BMP280.c.s
 
+Core/Src/CH455_source/aht10_iic.obj: Core/Src/CH455_source/aht10_iic.c.obj
+.PHONY : Core/Src/CH455_source/aht10_iic.obj
+
+# target to build an object file
+Core/Src/CH455_source/aht10_iic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/aht10_iic.c.obj
+.PHONY : Core/Src/CH455_source/aht10_iic.c.obj
+
+Core/Src/CH455_source/aht10_iic.i: Core/Src/CH455_source/aht10_iic.c.i
+.PHONY : Core/Src/CH455_source/aht10_iic.i
+
+# target to preprocess a source file
+Core/Src/CH455_source/aht10_iic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/aht10_iic.c.i
+.PHONY : Core/Src/CH455_source/aht10_iic.c.i
+
+Core/Src/CH455_source/aht10_iic.s: Core/Src/CH455_source/aht10_iic.c.s
+.PHONY : Core/Src/CH455_source/aht10_iic.s
+
+# target to generate assembly for a file
+Core/Src/CH455_source/aht10_iic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/aht10_iic.c.s
+.PHONY : Core/Src/CH455_source/aht10_iic.c.s
+
+Core/Src/CH455_source/ch455.obj: Core/Src/CH455_source/ch455.c.obj
+.PHONY : Core/Src/CH455_source/ch455.obj
+
+# target to build an object file
+Core/Src/CH455_source/ch455.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/ch455.c.obj
+.PHONY : Core/Src/CH455_source/ch455.c.obj
+
+Core/Src/CH455_source/ch455.i: Core/Src/CH455_source/ch455.c.i
+.PHONY : Core/Src/CH455_source/ch455.i
+
+# target to preprocess a source file
+Core/Src/CH455_source/ch455.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/ch455.c.i
+.PHONY : Core/Src/CH455_source/ch455.c.i
+
+Core/Src/CH455_source/ch455.s: Core/Src/CH455_source/ch455.c.s
+.PHONY : Core/Src/CH455_source/ch455.s
+
+# target to generate assembly for a file
+Core/Src/CH455_source/ch455.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/ch455.c.s
+.PHONY : Core/Src/CH455_source/ch455.c.s
+
+Core/Src/CH455_source/myiic.obj: Core/Src/CH455_source/myiic.c.obj
+.PHONY : Core/Src/CH455_source/myiic.obj
+
+# target to build an object file
+Core/Src/CH455_source/myiic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/myiic.c.obj
+.PHONY : Core/Src/CH455_source/myiic.c.obj
+
+Core/Src/CH455_source/myiic.i: Core/Src/CH455_source/myiic.c.i
+.PHONY : Core/Src/CH455_source/myiic.i
+
+# target to preprocess a source file
+Core/Src/CH455_source/myiic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/myiic.c.i
+.PHONY : Core/Src/CH455_source/myiic.c.i
+
+Core/Src/CH455_source/myiic.s: Core/Src/CH455_source/myiic.c.s
+.PHONY : Core/Src/CH455_source/myiic.s
+
+# target to generate assembly for a file
+Core/Src/CH455_source/myiic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/myiic.c.s
+.PHONY : Core/Src/CH455_source/myiic.c.s
+
 Core/Src/MPU6050.obj: Core/Src/MPU6050.c.obj
 .PHONY : Core/Src/MPU6050.obj
 
@@ -1060,6 +1132,15 @@ help:
 	@echo ... Core/Src/BMP280.obj
 	@echo ... Core/Src/BMP280.i
 	@echo ... Core/Src/BMP280.s
+	@echo ... Core/Src/CH455_source/aht10_iic.obj
+	@echo ... Core/Src/CH455_source/aht10_iic.i
+	@echo ... Core/Src/CH455_source/aht10_iic.s
+	@echo ... Core/Src/CH455_source/ch455.obj
+	@echo ... Core/Src/CH455_source/ch455.i
+	@echo ... Core/Src/CH455_source/ch455.s
+	@echo ... Core/Src/CH455_source/myiic.obj
+	@echo ... Core/Src/CH455_source/myiic.i
+	@echo ... Core/Src/CH455_source/myiic.s
 	@echo ... Core/Src/MPU6050.obj
 	@echo ... Core/Src/MPU6050.i
 	@echo ... Core/Src/MPU6050.s

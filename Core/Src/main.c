@@ -31,6 +31,7 @@
 #include "delay.h"
 #include "MPU6050.h"
 #include "BMP280.h"
+#include "CH455_Library/CH455/ch455.h"
 #include <math.h>
 #include <string.h>
 /* USER CODE END Includes */
@@ -67,8 +68,14 @@ int16_t gyro_z = 0;
 
 float pitch, roll, yaw;
 float Angle[3] = {0};//最终角度,IMU_Update中调用。
-uint8_t uartRxBuffer[3];
-//uint8_t uartTxBuffer[10];
+
+uint8_t uartRxBuffer[3];//串口
+
+uint16_t IC_Val1 = 0;           // input capture value1
+int16_t IC_Val2 = 0;           // input capture value2
+uint16_t Difference = 0;        // the difference between two captured values
+uint8_t Is_First_Captured = 0;  // 0-尚未捕获第一个值, 1-已经捕获了第一个值
+
 
 /* USER CODE END PV */
 
@@ -109,28 +116,24 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
         }
     }
 }
-void USART1_IRQHandler(void)
-{
+
+void USART1_IRQHandler(void) {
     /* USER CODE BEGIN USART1_IRQn 0 */
     HAL_UART_IRQHandler(&huart1);
 
-    if(HAL_UART_Receive_IT(&huart1, (uint8_t*)uartRxBuffer, 3) == HAL_OK)
-    {
-        HAL_UART_Transmit(&huart1,uartRxBuffer,sizeof (uartRxBuffer),50);
-        while(__HAL_UART_GET_FLAG(&huart1,UART_FLAG_TC)!=SET);
+    if (HAL_UART_Receive_IT(&huart1, (uint8_t *) uartRxBuffer, 3) == HAL_OK) {
+        HAL_UART_Transmit(&huart1, uartRxBuffer, sizeof(uartRxBuffer), 50);
+        while (__HAL_UART_GET_FLAG(&huart1, UART_FLAG_TC) != SET);
 
-        if (uartRxBuffer[2]==69)
-        {
-            HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_SET);
+        if (uartRxBuffer[2] == 69) {
+            HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+        } else {
+            HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
         }
-        else
-        {
-            HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_RESET);
-        }
-       // memset(uartRxBuffer,0,sizeof(uartRxBuffer));
+        // memset(uartRxBuffer,0,sizeof(uartRxBuffer));
     }
     /* USER CODE END USART1_IRQn 0 */
-  //  HAL_UART_IRQHandler(&huart1);
+    //  HAL_UART_IRQHandler(&huart1);
     /* USER CODE BEGIN USART1_IRQn 1 */
 
     /* USER CODE END USART1_IRQn 1 */
@@ -144,7 +147,19 @@ int16_t getOriginalNum(int16_t num) {
     }
     return num;
 }
-
+/*用于将红外解码器读取到的数据转化成可以直接在数码管上显示的数字*/
+uint8_t Decode(uint8_t raw_data)
+{
+    switch (raw_data) {
+        case 69:{
+            return 1;
+        }
+        case 70:{
+            return 2;
+        }
+        default:return 3;
+    }
+}
 
 
 /* USER CODE END PFP */
@@ -188,24 +203,30 @@ int main(void)
   MX_TIM3_Init();
   MX_I2C2_Init();
   MX_USART1_UART_Init();
+  MX_TIM8_Init();
   /* USER CODE BEGIN 2 */
 
     HAL_TIM_Base_Start_IT(&htim2);
     HAL_TIM_Base_Start_IT(&htim3);
+    HAL_TIM_Base_Start(&htim8);
     HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
     HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2);
-    HAL_TIM_Base_Start(&htim2);
-    __HAL_UART_ENABLE_IT(&huart1,UART_IT_RXNE);
+    HAL_TIM_IC_Start_IT(&htim8, TIM_CHANNEL_4);
+    //HAL_TIM_Base_Start(&htim2);
+    __HAL_UART_ENABLE_IT(&huart1, UART_IT_RXNE);
 
     delay_init(100);
-    LCD_Init();
 
+    LCD_Init();
+    CH455_init();
     MPU6050_Init(&hi2c2);
     Bmp_Init();
     //MPU_Init();
     LCD_Fill(0, 0, LCD_H, LCD_W, WHITE);
     LCD_ShowString(0, 55, "pwm_duty:", RED, WHITE, 16, 0);
-    HAL_UART_Transmit(&huart1,"Hello",sizeof ("Hello"),20);
+    HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
+    HAL_UART_Transmit(&huart1, "Hello", sizeof("Hello"), 20);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -219,17 +240,27 @@ int main(void)
         MPU6050_ReadAccel(&hi2c2, &acceleration_x, &acceleration_y, &acceleration_z);
         MPU6050_ReadGyro(&hi2c2, &gyro_x, &gyro_y, &gyro_z);
         IMU_Update(gyro_x, gyro_y, gyro_z, acceleration_x, acceleration_y, acceleration_z, &Angle[0]);
-        pressure=BMP280_Get_Pressure();
+        pressure = BMP280_Get_Pressure();
         pitch = Angle[0];
         roll = Angle[1];
         yaw = Angle[2];
         LCD_ShowFloatNum1(80, 55, pwm_duty, 5, RED, WHITE, 16);
         LCD_ShowFloatNum1(80, 30, pressure, 8, RED, WHITE, 16);
-        LCD_ShowIntNum(50,160,uartRxBuffer[2],2,RED,WHITE,16);
+        LCD_ShowIntNum(50, 160, uartRxBuffer[2], 2, RED, WHITE, 16);
+        LCD_ShowFloatNum1(50, 180, Difference * 0.0006396 / 2.0 * 340, 8, RED, WHITE, 16);//距离单位是cm
+        MPU6050_LCD_PrintAngle(pitch, roll, yaw);
+        CH455_Display(1, 0);
+        CH455_Display(2, 0);
+        CH455_Display(3,0);
+        CH455_Display(4, Decode(uartRxBuffer[2]));
+
+
+        HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET);
+        delay_us(10);
+        HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
         HAL_Delay(200);
 //        MPU6050_LCD_PrintAccel(acceleration_x, acceleration_y, acceleration_z);
 //        MPU6050_LCD_PrintGyro(gyro_x, gyro_y, gyro_z);
-        MPU6050_LCD_PrintAngle(pitch, roll, yaw);
     }
 
   /* USER CODE END 3 */

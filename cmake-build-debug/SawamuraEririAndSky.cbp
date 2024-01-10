@@ -99,6 +99,18 @@
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/BMP280.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/CH455_Library/CH455/ch455.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/CH455_Library/DELAY/delay.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/CH455_Library/IIC/aht10_iic.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/CH455_Library/IIC/myiic.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/MPU6050.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
@@ -157,6 +169,15 @@
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/BMP280.c">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/CH455_source/aht10_iic.c">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/CH455_source/ch455.c">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/CH455_source/myiic.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/MPU6050.c">

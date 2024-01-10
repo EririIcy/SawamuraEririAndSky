@@ -399,9 +399,9 @@ uint32_t mypow(uint8_t m,uint8_t n)
 ******************************************************************************/
 void LCD_ShowIntNum(uint16_t x,uint16_t y,uint16_t num,uint8_t len,uint16_t fc,uint16_t bc,uint8_t sizey)
 {
-    uint8_t t,temp;
-    uint8_t enshow=0;
-    uint8_t sizex=sizey/2;
+    uint16_t t,temp;
+    uint16_t enshow=0;
+    uint16_t sizex=sizey/2;
     for(t=0;t<len;t++)
     {
         temp=(num/mypow(10,len-t-1))%10;

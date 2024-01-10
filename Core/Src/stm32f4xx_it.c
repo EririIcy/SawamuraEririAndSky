@@ -57,6 +57,7 @@
 /* External variables --------------------------------------------------------*/
 extern TIM_HandleTypeDef htim2;
 extern TIM_HandleTypeDef htim3;
+extern TIM_HandleTypeDef htim8;
 extern UART_HandleTypeDef huart1;
 /* USER CODE BEGIN EV */
 
@@ -74,9 +75,8 @@ void NMI_Handler(void)
 
   /* USER CODE END NonMaskableInt_IRQn 0 */
   /* USER CODE BEGIN NonMaskableInt_IRQn 1 */
-   while (1)
-  {
-  }
+    while (1) {
+    }
   /* USER CODE END NonMaskableInt_IRQn 1 */
 }
 
@@ -244,8 +244,7 @@ void TIM3_IRQHandler(void)
 }
 
 /**
-  * @
-  * brief This function handles USART1 global interrupt.
+  * @brief This function handles USART1 global interrupt.
   */
 //void USART1_IRQHandler(void)
 //{
@@ -253,9 +252,47 @@ void TIM3_IRQHandler(void)
 //  /* USER CODE END USART1_IRQn 0 */
 //  HAL_UART_IRQHandler(&huart1);
 //  /* USER CODE BEGIN USART1_IRQn 1 */
-////////////
+////////////////////
 //  /* USER CODE END USART1_IRQn 1 */
 //}
+
+/**
+  * @brief This function handles TIM8 capture compare interrupt.
+  */
+void TIM8_CC_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM8_CC_IRQn 0 */
+    extern uint16_t IC_Val1;
+    extern int16_t IC_Val2;           // input capture value2
+    extern uint16_t Difference;        // the difference between two captured values
+    extern uint8_t Is_First_Captured;  // 0-尚未捕获第一个值, 1-已经捕获了第一个值
+    //这里由于只用到了一个输入捕获，所以就没有写判断中断源的代码。后续可以进一步完善
+    if (Is_First_Captured == 0) // if the first value is not captured
+    {
+        IC_Val1 = HAL_TIM_ReadCapturedValue(&htim8, TIM_CHANNEL_4); // read the first value
+        Is_First_Captured = 1;  // set the first captured as true
+    } else if (Is_First_Captured) // if the first is already captured
+    {
+        IC_Val2 = HAL_TIM_ReadCapturedValue(&htim8, TIM_CHANNEL_4); // read second value
+        __HAL_TIM_SET_COUNTER(&htim8, 0);  // reset the counter
+
+        if (IC_Val2 > IC_Val1) {
+            Difference = IC_Val2 - IC_Val1;
+        } else if (IC_Val2 < IC_Val1) {
+            // if the counter is overflow
+            Difference = ((0xffff - IC_Val1) + IC_Val2) + 1;
+        } else {
+            Error_Handler();
+        }
+        Is_First_Captured = 0; // reset the first captured
+    }
+    // Your code here: Handle the measured pulse width (Difference)
+  /* USER CODE END TIM8_CC_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim8);
+  /* USER CODE BEGIN TIM8_CC_IRQn 1 */
+
+  /* USER CODE END TIM8_CC_IRQn 1 */
+}
 
 /* USER CODE BEGIN 1 */
 

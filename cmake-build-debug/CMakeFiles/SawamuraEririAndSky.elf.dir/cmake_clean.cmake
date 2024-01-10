@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/BMP280.c.obj"
   "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/BMP280.c.obj.d"
+  "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/aht10_iic.c.obj"
+  "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/aht10_iic.c.obj.d"
+  "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/ch455.c.obj"
+  "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/ch455.c.obj.d"
+  "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/myiic.c.obj"
+  "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/CH455_source/myiic.c.obj.d"
   "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj"
   "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/MPU6050.c.obj.d"
   "CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/delay.c.obj"
