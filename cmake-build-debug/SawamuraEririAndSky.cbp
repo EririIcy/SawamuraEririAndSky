@@ -147,10 +147,16 @@
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/main.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/motor.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/mpuiic.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/pic.h">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/pid.h">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Inc/spi.h">
@@ -207,7 +213,13 @@
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/main.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/motor.c">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/mpuiic.c">
+			<Option target="SawamuraEririAndSky.elf"/>
+		</Unit>
+		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/pid.c">
 			<Option target="SawamuraEririAndSky.elf"/>
 		</Unit>
 		<Unit filename="D:/PersonalFile/STM32F429/FinalWork/git_SawamuraEririAndSky/Core/Src/spi.c">

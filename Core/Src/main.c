@@ -23,7 +23,8 @@
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
-
+#include "motor.h"
+#include "pid.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "lcd_init.h"
@@ -56,7 +57,7 @@
 /* USER CODE BEGIN PV */
 static int keyInterrupt1 = 0; //PG6
 static int keyInterrupt2 = 0; //PG7
-static int pwm_duty = 300;
+int remote_control_flag=0;
 
 int16_t acceleration_x = 0;  //三轴加速度
 int16_t acceleration_y = 0;
@@ -69,14 +70,18 @@ int16_t gyro_z = 0;
 float pitch, roll, yaw;
 float Angle[3] = {0};//最终角度,IMU_Update中调用。
 
-uint8_t uartRxBuffer[3];//串口
+int pwm_duty = 750;//单位是1us
+uint8_t uartRxBuffer[3];//串口接收缓存
 
 uint16_t IC_Val1 = 0;           // input capture value1
 int16_t IC_Val2 = 0;           // input capture value2
 uint16_t Difference = 0;        // the difference between two captured values
 uint8_t Is_First_Captured = 0;  // 0-尚未捕获第一个值, 1-已经捕获了第一个值
 
-
+extern PID pid_fei;
+float Pd_1 = 20;
+float Id_1 = 0;
+float Dd_1 = 5;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -101,17 +106,17 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN) {
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM2) {
         if (keyInterrupt1 == 1) {
-            pwm_duty++;
+            pwm_duty+=10;
             HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
-            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, pwm_duty);
-            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, pwm_duty);
+//            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, pwm_duty);
+//            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, pwm_duty);
             keyInterrupt1 = 0;
         }
         if (keyInterrupt2 == 1) {
-            pwm_duty--;
+            pwm_duty-=10;
             HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
-            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, pwm_duty);
-            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, pwm_duty);
+//            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, pwm_duty);
+//            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, pwm_duty);
             keyInterrupt2 = 0;
         }
     }
@@ -120,7 +125,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 void USART1_IRQHandler(void) {
     /* USER CODE BEGIN USART1_IRQn 0 */
     HAL_UART_IRQHandler(&huart1);
-
+    remote_control_flag=1;
     if (HAL_UART_Receive_IT(&huart1, (uint8_t *) uartRxBuffer, 3) == HAL_OK) {
         HAL_UART_Transmit(&huart1, uartRxBuffer, sizeof(uartRxBuffer), 50);
         while (__HAL_UART_GET_FLAG(&huart1, UART_FLAG_TC) != SET);
@@ -138,7 +143,6 @@ void USART1_IRQHandler(void) {
 
     /* USER CODE END USART1_IRQn 1 */
 }
-
 /*用于将补码转化成原码*/
 int16_t getOriginalNum(int16_t num) {
     if (num & 0x8000)//判断最高位是否为1，1表示该数是一个负数
@@ -151,16 +155,22 @@ int16_t getOriginalNum(int16_t num) {
 uint8_t Decode(uint8_t raw_data)
 {
     switch (raw_data) {
-        case 69:{
+        case 69: {
             return 1;
         }
-        case 70:{
+        case 70: {
             return 2;
+        }
+        case 22: {
+            return '*';
+        }
+        case 13:
+        {
+            return '#';
         }
         default:return 3;
     }
 }
-
 
 /* USER CODE END PFP */
 
@@ -221,11 +231,14 @@ int main(void)
     CH455_init();
     MPU6050_Init(&hi2c2);
     Bmp_Init();
+   // Positional_PID_Init(&pid_fei,Pd_1,Id_1,Dd_1,50,10000);
+    pid_init();
     //MPU_Init();
     LCD_Fill(0, 0, LCD_H, LCD_W, WHITE);
     LCD_ShowString(0, 55, "pwm_duty:", RED, WHITE, 16, 0);
     HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
     HAL_UART_Transmit(&huart1, "Hello", sizeof("Hello"), 20);
+
 
   /* USER CODE END 2 */
 
@@ -248,16 +261,20 @@ int main(void)
         LCD_ShowFloatNum1(80, 30, pressure, 8, RED, WHITE, 16);
         LCD_ShowIntNum(50, 160, uartRxBuffer[2], 2, RED, WHITE, 16);
         LCD_ShowFloatNum1(50, 180, Difference * 0.0006396 / 2.0 * 340, 8, RED, WHITE, 16);//距离单位是cm
+        LCD_ShowFloatNum1(120, 200, pid_fei.output, 5, RED, WHITE, 16);
         MPU6050_LCD_PrintAngle(pitch, roll, yaw);
+
+        //数码管显示串口接收到的数据
         CH455_Display(1, 0);
         CH455_Display(2, 0);
         CH455_Display(3,0);
         CH455_Display(4, Decode(uartRxBuffer[2]));
 
-
-        HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET);
+        //超声波模块的控制
+        HAL_GPIO_WritePin(GPIOI,GPIO_PIN_1,GPIO_PIN_SET);//发送一个Trig信号
         delay_us(10);
-        HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
+        HAL_GPIO_WritePin(GPIOI,GPIO_PIN_1,GPIO_PIN_RESET);
+
         HAL_Delay(200);
 //        MPU6050_LCD_PrintAccel(acceleration_x, acceleration_y, acceleration_z);
 //        MPU6050_LCD_PrintGyro(gyro_x, gyro_y, gyro_z);

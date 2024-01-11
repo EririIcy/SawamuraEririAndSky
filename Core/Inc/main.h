@@ -41,7 +41,10 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+extern float Pd_1;
+extern float Id_1;
+extern float Dd_1;
+extern int remote_control_flag;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
@@ -53,7 +56,7 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+uint8_t Decode(uint8_t raw_data);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

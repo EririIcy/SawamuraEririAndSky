@@ -440,6 +440,30 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/motor.obj: Core/Src/motor.c.obj
+.PHONY : Core/Src/motor.obj
+
+# target to build an object file
+Core/Src/motor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/motor.c.obj
+.PHONY : Core/Src/motor.c.obj
+
+Core/Src/motor.i: Core/Src/motor.c.i
+.PHONY : Core/Src/motor.i
+
+# target to preprocess a source file
+Core/Src/motor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/motor.c.i
+.PHONY : Core/Src/motor.c.i
+
+Core/Src/motor.s: Core/Src/motor.c.s
+.PHONY : Core/Src/motor.s
+
+# target to generate assembly for a file
+Core/Src/motor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/motor.c.s
+.PHONY : Core/Src/motor.c.s
+
 Core/Src/mpuiic.obj: Core/Src/mpuiic.c.obj
 .PHONY : Core/Src/mpuiic.obj
 
@@ -463,6 +487,30 @@ Core/Src/mpuiic.s: Core/Src/mpuiic.c.s
 Core/Src/mpuiic.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/mpuiic.c.s
 .PHONY : Core/Src/mpuiic.c.s
+
+Core/Src/pid.obj: Core/Src/pid.c.obj
+.PHONY : Core/Src/pid.obj
+
+# target to build an object file
+Core/Src/pid.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/pid.c.obj
+.PHONY : Core/Src/pid.c.obj
+
+Core/Src/pid.i: Core/Src/pid.c.i
+.PHONY : Core/Src/pid.i
+
+# target to preprocess a source file
+Core/Src/pid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/pid.c.i
+.PHONY : Core/Src/pid.c.i
+
+Core/Src/pid.s: Core/Src/pid.c.s
+.PHONY : Core/Src/pid.s
+
+# target to generate assembly for a file
+Core/Src/pid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SawamuraEririAndSky.elf.dir\build.make CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/pid.c.s
+.PHONY : Core/Src/pid.c.s
 
 Core/Src/spi.obj: Core/Src/spi.c.obj
 .PHONY : Core/Src/spi.obj
@@ -1168,9 +1216,15 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/motor.obj
+	@echo ... Core/Src/motor.i
+	@echo ... Core/Src/motor.s
 	@echo ... Core/Src/mpuiic.obj
 	@echo ... Core/Src/mpuiic.i
 	@echo ... Core/Src/mpuiic.s
+	@echo ... Core/Src/pid.obj
+	@echo ... Core/Src/pid.i
+	@echo ... Core/Src/pid.s
 	@echo ... Core/Src/spi.obj
 	@echo ... Core/Src/spi.i
 	@echo ... Core/Src/spi.s

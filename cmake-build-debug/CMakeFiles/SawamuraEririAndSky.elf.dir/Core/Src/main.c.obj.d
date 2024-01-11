@@ -46,6 +46,9 @@ CMakeFiles/SawamuraEririAndSky.elf.dir/Core/Src/main.c.obj: \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/tim.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/usart.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/gpio.h \
+ D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/motor.h \
+ D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/tim.h \
+ D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/pid.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/lcd_init.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/lcd.h \
  D:\PersonalFile\STM32F429\FinalWork\git_SawamuraEririAndSky\Core\Inc/delay.h \

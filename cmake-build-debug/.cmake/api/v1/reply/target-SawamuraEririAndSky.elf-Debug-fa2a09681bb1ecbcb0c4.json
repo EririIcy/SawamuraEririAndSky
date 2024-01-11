@@ -181,8 +181,6 @@
 			},
 			"sourceIndexes" : 
 			[
-				24,
-				25,
 				26,
 				27,
 				28,
@@ -203,10 +201,10 @@
 				43,
 				44,
 				45,
-				118,
-				119,
-				120,
-				121,
+				46,
+				47,
+				48,
+				49,
 				122,
 				123,
 				124,
@@ -221,7 +219,11 @@
 				133,
 				134,
 				135,
-				136
+				136,
+				137,
+				138,
+				139,
+				140
 			]
 		},
 		{
@@ -316,7 +318,7 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				46
+				50
 			]
 		}
 	],
@@ -403,13 +405,11 @@
 				21,
 				22,
 				23,
-				47,
-				48,
-				49,
+				24,
+				25,
 				51,
 				52,
 				53,
-				54,
 				55,
 				56,
 				57,
@@ -436,10 +436,10 @@
 				78,
 				79,
 				80,
+				81,
 				82,
 				83,
 				84,
-				85,
 				86,
 				87,
 				88,
@@ -470,15 +470,17 @@
 				113,
 				114,
 				115,
-				116
+				116,
+				117,
+				118,
+				119,
+				120
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				24,
-				25,
 				26,
 				27,
 				28,
@@ -499,10 +501,10 @@
 				43,
 				44,
 				45,
-				118,
-				119,
-				120,
-				121,
+				46,
+				47,
+				48,
+				49,
 				122,
 				123,
 				124,
@@ -517,18 +519,22 @@
 				133,
 				134,
 				135,
-				136
+				136,
+				137,
+				138,
+				139,
+				140
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				46,
 				50,
-				81,
-				117,
-				137
+				54,
+				85,
+				121,
+				141
 			]
 		}
 	],
@@ -621,12 +627,22 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "Core/Inc/motor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "Core/Inc/mpuiic.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"path" : "Core/Inc/pic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/pid.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -735,7 +751,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "Core/Src/motor.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "Core/Src/mpuiic.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/pid.c",
 			"sourceGroupIndex" : 1
 		},
 		{
