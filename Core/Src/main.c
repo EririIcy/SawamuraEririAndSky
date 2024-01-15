@@ -23,8 +23,7 @@
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
-#include "motor.h"
-#include "pid.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "lcd_init.h"
@@ -33,6 +32,9 @@
 #include "MPU6050.h"
 #include "BMP280.h"
 #include "CH455_Library/CH455/ch455.h"
+#include "pid.h"
+#include "motor.h"
+
 #include <math.h>
 #include <string.h>
 /* USER CODE END Includes */
@@ -79,7 +81,7 @@ uint16_t Difference = 0;        // the difference between two captured values
 uint8_t Is_First_Captured = 0;  // 0-尚未捕获第一个值, 1-已经捕获了第一个值
 
 extern PID pid_fei;
-float Pd_1 = 20;
+float Pd_1 = 40;
 float Id_1 = 0;
 float Dd_1 = 5;
 /* USER CODE END PV */
@@ -106,14 +108,14 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN) {
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM2) {
         if (keyInterrupt1 == 1) {
-            pwm_duty+=10;
+            pwm_duty+=50;
             HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
 //            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, pwm_duty);
 //            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, pwm_duty);
             keyInterrupt1 = 0;
         }
         if (keyInterrupt2 == 1) {
-            pwm_duty-=10;
+            pwm_duty-=50;
             HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
 //            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, pwm_duty);
 //            __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, pwm_duty);
@@ -161,12 +163,56 @@ uint8_t Decode(uint8_t raw_data)
         case 70: {
             return 2;
         }
+        case 71:
+        {
+            return 3;
+        }
+        case 68:
+        {
+            return 4;
+        }
+        case 64:
+        {
+            return 5;
+        }
+        case 67:
+        {
+            return 6;
+        }
+        case 7:
+        {
+            return 7;
+        }
+        case 21:
+        {
+            return 8;
+        }
+        case 9:
+        {
+            return 9;
+        }
+        case 25:
+        {
+            return 0;
+        }
         case 22: {
             return '*';
         }
         case 13:
         {
             return '#';
+        }
+        case 90:
+        {
+            return 90;
+        }
+        case 82:
+        {
+            return 80;
+        }
+        case 28:
+        {
+            return 'o';
         }
         default:return 3;
     }
@@ -235,7 +281,18 @@ int main(void)
     pid_init();
     //MPU_Init();
     LCD_Fill(0, 0, LCD_H, LCD_W, WHITE);
-    LCD_ShowString(0, 55, "pwm_duty:", RED, WHITE, 16, 0);
+    LCD_ShowString(10, 0, "H_time:", BLUE, WHITE, 32, 0);
+    LCD_ShowString(10, 32, "Pres:", BLUE, WHITE, 32, 0);
+    LCD_ShowString(10, 64, "pitch:", BLUE, WHITE, 32, 0);
+    LCD_ShowString(10, 96, "roll:", BLUE, WHITE, 32, 0);
+    LCD_ShowString(10, 128, "yaw:", BLUE, WHITE, 32, 0);
+    LCD_ShowString(10, 160, "UART_R:", BLUE, WHITE, 32, 0);
+    LCD_ShowString(10, 192, "H:", BLUE, WHITE, 32, 0);
+
+    LCD_ShowString(190, 192, "cm", RED, WHITE, 32, 0);
+    LCD_ShowString(190, 0, "us", RED, WHITE, 32, 0);
+    LCD_ShowString(190, 32, "kpa", RED, WHITE, 32, 0);
+
     HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
     HAL_UART_Transmit(&huart1, "Hello", sizeof("Hello"), 20);
 
@@ -257,11 +314,11 @@ int main(void)
         pitch = Angle[0];
         roll = Angle[1];
         yaw = Angle[2];
-        LCD_ShowFloatNum1(80, 55, pwm_duty, 5, RED, WHITE, 16);
-        LCD_ShowFloatNum1(80, 30, pressure, 8, RED, WHITE, 16);
-        LCD_ShowIntNum(50, 160, uartRxBuffer[2], 2, RED, WHITE, 16);
-        LCD_ShowFloatNum1(50, 180, Difference * 0.0006396 / 2.0 * 340, 8, RED, WHITE, 16);//距离单位是cm
-        LCD_ShowFloatNum1(120, 200, pid_fei.output, 5, RED, WHITE, 16);
+        LCD_ShowIntNum(120, 0, pwm_duty, 4, RED, WHITE, 32);
+        LCD_ShowFloatNum1(90, 32, pressure/1000.0, 5, RED, WHITE, 32);
+        LCD_ShowIntNum(130, 160, uartRxBuffer[2], 2, RED, WHITE, 32);
+        LCD_ShowFloatNum1(80, 192, Difference * 0.00064 / 2.0 * 340, 5, RED, WHITE, 32);//距离单位是cm
+        //LCD_ShowFloatNum1(120, 200, pid_fei.output, 6, RED, WHITE, 16);
         MPU6050_LCD_PrintAngle(pitch, roll, yaw);
 
         //数码管显示串口接收到的数据
@@ -295,15 +352,28 @@ void SystemClock_Config(void)
   /** Configure the main internal regulator output voltage
   */
   __HAL_RCC_PWR_CLK_ENABLE();
-  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE3);
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
 
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
-  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLM = 8;
+  RCC_OscInitStruct.PLL.PLLN = 180;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  RCC_OscInitStruct.PLL.PLLQ = 4;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Activate the Over-Drive mode
+  */
+  if (HAL_PWREx_EnableOverDrive() != HAL_OK)
   {
     Error_Handler();
   }
@@ -312,12 +382,12 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSE;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK)
   {
     Error_Handler();
   }

@@ -59,4 +59,6 @@ https://www.bilibili.com/video/BV1zM4y157pk/  非常好且形象    P:比例 I�
 
 ## 5.加装后续功能
 
+### 超声波测距
+使用超声波模块HC_SR04作为获取飞行器高度的传感器。使用的引脚是PI2和PI1。其中PI1是一个GPIO输出，用于给模块触发信号trig，
 ps.其他准备：git 的使用，远程服务器暂定：D:\hardware\flyToTheFuckSky\MyFly

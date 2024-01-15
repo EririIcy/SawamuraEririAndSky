@@ -134,9 +134,9 @@ void MPU6050_LCD_PrintGyro(int16_t gyro_x, int16_t gyro_y, int16_t gyro_z) {
  * */
 void MPU6050_LCD_PrintAngle(float pitch, float roll, float yaw) {
 
-    uint16_t x_start = 50;//输出的x起始位置
-    uint16_t y_start = 70;
-    uint16_t y_step = 20;
+    uint16_t x_start = 110;//输出的x起始位置
+    uint16_t y_start = 32;
+    uint16_t y_step = 32;
     uint32_t font_color = RED;
     uint32_t background_color = WHITE;
     uint32_t pitch_minus_color = background_color;
@@ -155,12 +155,12 @@ void MPU6050_LCD_PrintAngle(float pitch, float roll, float yaw) {
         yaw = fabs(yaw);
         yaw_minus_color = font_color;
     }
-    LCD_ShowFloatNum1(x_start + 16, y_start + 1 * y_step, pitch, 4, font_color, background_color, 16);
-    LCD_ShowFloatNum1(x_start + 16, y_start + 2 * y_step, roll, 4, font_color, background_color, 16);
-    LCD_ShowFloatNum1(x_start + 16, y_start + 3 * y_step, yaw, 4, font_color, background_color, 16);
-    LCD_ShowChar(x_start, y_start + 1 * y_step, '-', pitch_minus_color, background_color, 16, 1);
-    LCD_ShowChar(x_start, y_start + 2 * y_step, '-', roll_minus_color, background_color, 16, 1);
-    LCD_ShowChar(x_start, y_start + 3 * y_step, '-', yaw_minus_color, background_color, 16, 1);
+    LCD_ShowFloatNum1(x_start + 32, y_start + 1 * y_step, pitch, 4, font_color, background_color, 32);
+    LCD_ShowFloatNum1(x_start + 32, y_start + 2 * y_step, roll, 4, font_color, background_color, 32);
+    LCD_ShowFloatNum1(x_start + 32, y_start + 3 * y_step, yaw, 4, font_color, background_color, 32);
+    LCD_ShowChar(x_start, y_start + 1 * y_step, '-', pitch_minus_color, background_color, 32, 1);
+    LCD_ShowChar(x_start, y_start + 2 * y_step, '-', roll_minus_color, background_color, 32, 1);
+    LCD_ShowChar(x_start, y_start + 3 * y_step, '-', yaw_minus_color, background_color, 32, 1);
 }
 //定义各变量
 

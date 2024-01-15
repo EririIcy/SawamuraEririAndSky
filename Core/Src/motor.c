@@ -13,7 +13,7 @@ void set_motor(int H_Level_time, uint8_t motor_num) {
     if (H_Level_time > 2490) {
         H_Level_time = 2490;
     }
-    int CCR_Value;6
+    int CCR_Value;
     CCR_Value = H_Level_time / 10;//ARR的值设置为了249，所以说CCR的值不可以超过249
     switch (motor_num) {
         case 1: {
